@@ -1,11 +1,11 @@
 package graph;
 
-import corona_5g.Model.Id;
-import corona_5g.Utils.DegreeDistribution;
+//import com.google.common.collect.Sets;
+
 import datastructures.other.Tuples;
 import datastructures.other.Tuples.Tuple2;
-import logging.Log;
-import org.eclipse.collections.impl.factory.Sets;
+
+import org.apache.commons.compress.utils.Sets;
 import org.jgrapht.alg.scoring.*;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultUndirectedWeightedGraph;
@@ -16,23 +16,27 @@ import tech.tablesaw.api.LongColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
+import utils.Log;
+import utils.Model;
+import utils.Utils;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-import static corona_5g.Utils.copyGraph;
-import static corona_5g.Utils.simpleGraphOf;
+
 import static java.util.Objects.isNull;
 import static java.util.stream.Collectors.toSet;
 import static org.jgrapht.nio.graph6.Graph6Sparse6Exporter.Format.SPARSE6;
 import static system.Contracts.checkArgument;
+import static utils.Utils.copyGraph;
+import static utils.Utils.simpleGraphOf;
 
-public abstract class Graph<V extends Id, E> extends DefaultUndirectedWeightedGraph<V, E> {
+public abstract class Graph<V extends Model.Id, E> extends DefaultUndirectedWeightedGraph<V, E> {
     private BetweennessCentrality<Long, DefaultEdge> betweenness;
     private ClusteringCoefficient<Long, DefaultEdge> clustering;
-    private DegreeDistribution<Long, DefaultEdge> degrees;
+    private Utils.DegreeDistribution<Long, DefaultEdge> degrees;
     private AlphaCentrality<Long, DefaultEdge> alpha;
     private PageRank<Long, DefaultEdge> pageRank;
     private Coreness<Long, DefaultEdge> coreness;
@@ -102,7 +106,7 @@ public abstract class Graph<V extends Id, E> extends DefaultUndirectedWeightedGr
     public Table metrics() {
 //        betweenness = new BetweennessCentrality<>(copyGraph(this));
         clustering = new ClusteringCoefficient<>(copyGraph(this));
-        degrees = new DegreeDistribution<>(copyGraph(this));
+        degrees = new Utils.DegreeDistribution<>(copyGraph(this));
         alpha = new AlphaCentrality<>(copyGraph(this));
         pageRank = new PageRank<>(copyGraph(this));
         coreness = new Coreness<>(simpleGraphOf(this));
@@ -147,7 +151,7 @@ public abstract class Graph<V extends Id, E> extends DefaultUndirectedWeightedGr
     public Set<Long> vertexIds() {
         return vertexSet()
                 .stream()
-                .map(Id::id)
+                .map(Model.Id::id)
                 .collect(toSet());
     }
 

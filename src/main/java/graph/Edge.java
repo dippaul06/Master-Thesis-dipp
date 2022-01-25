@@ -1,9 +1,5 @@
 package graph;
 
-import corona_5g.analyze.Contacts.CommentContact;
-import corona_5g.analyze.Contacts.Contact;
-import corona_5g.analyze.Contacts.QuoteContact;
-import corona_5g.analyze.Contacts.RetweetContact;
 import graph.Contacts.CommentContact;
 import graph.Contacts.Contact;
 import graph.Contacts.QuoteContact;

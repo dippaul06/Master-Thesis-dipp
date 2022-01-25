@@ -1,10 +1,10 @@
 package graph;
 
-import corona_5g.Model.User;
-import corona_5g.analyze.Contacts.CommentContact;
-import corona_5g.analyze.Contacts.Contact;
-import corona_5g.analyze.Contacts.QuoteContact;
-import corona_5g.analyze.Contacts.RetweetContact;
+
+import graph.Contacts.CommentContact;
+import graph.Contacts.Contact;
+import graph.Contacts.QuoteContact;
+import graph.Contacts.RetweetContact;
 import it.unimi.dsi.fastutil.longs.LongOpenHashSet;
 import it.unimi.dsi.fastutil.objects.Object2IntLinkedOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
@@ -19,16 +19,18 @@ import tech.tablesaw.api.Table;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
 import utils.GraphUtils;
+import utils.Model;
+import utils.Model.User;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
 
-import static corona_5g.Utils.reverseSortBySize;
 import static java.lang.String.valueOf;
 import static org.jgrapht.nio.matrix.MatrixExporter.Format.SPARSE_ADJACENCY_MATRIX;
 import static system.Contracts.checkArgument;
+import static utils.Utils.reverseSortBySize;
 
 public class Slice extends Graph<User, Edge> {
 
