@@ -6,12 +6,33 @@ group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
+    google()
     mavenCentral()
+//    maven {url "https://jitpack.io"}
+//    maven {url "http://www.i3s.unice.fr/~hogie/maven_repository/"}
 }
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+
+    implementation 'com.ebay.bsonpatch:bsonpatch:0.4.9'
+    implementation 'com.google.guava:guava:31.0.1-jre'
+//    implementation 'com.google.guava:guava:31.0.1-jre'
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    implementation 'org.apache.commons:commons-text:1.9'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.apache.commons:commons-pool2:2.10.0'
+    implementation 'org.apache.commons:commons-compress:1.21'
+    implementation 'org.apache.commons:commons-configuration2:2.7'
+    implementation 'com.google.maps:google-maps-services:1.0.1'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.3'
+    implementation 'org.mongodb:mongodb-driver-reactivestreams:4.4.1'
+    implementation 'it.unimi.dsi:fastutil:8.5.6'
+//    compile 'it.unimi.dsi:fastutil:8.2.2'
+    implementation 'org.jgrapht:jgrapht-core:1.5.1'
+    implementation 'org.jgrapht:jgrapht-io:1.5.1'
 }
 
 test {
