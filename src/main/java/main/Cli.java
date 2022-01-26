@@ -10,7 +10,7 @@ import java.nio.file.Path;
 import static utils.StrUtils.Color.*;
 
 // --------------------------------------------------
-//  ANALYSIS.
+//  CLI.
 // --------------------------------------------------
 public class Cli {
 
