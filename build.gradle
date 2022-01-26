@@ -20,24 +20,15 @@ jar {
     exclude "META-INF/*.RSA"
     baseName = "$project.name"
 
-    manifest {
-        attributes "Main-Class": "main.Cli"
-    }
-    from {
-        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-    }
-}
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 
-task fatJar(type: Jar) {
     manifest {
-        attributes "Main-Class": "main.Cli"
+        attributes["Main-Class"] = "main.Cli"
     }
-    archiveClassifier = "all"
+
     from {
-//        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
         configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
     }
-//    with jar
 }
 
 dependencies {
