@@ -206,7 +206,7 @@ public enum Utils {
     }
 
     // stores
-    static void persistStati(Path dir, String name, Collection<? extends Status<?>> stati) {
+    public static void persistStati(Path dir, String name, Collection<? extends Status<?>> stati) {
         persistBsons(dir, name,
                 stati.stream()
                         .filter(status -> !(status.isDummy()))
@@ -271,7 +271,7 @@ public enum Utils {
 
 
 
-    static List<BsonDocument> transformStatus(BsonDocument _bson) {
+    public static List<BsonDocument> transformStatus(BsonDocument _bson) {
         var json = Document.parse(_bson.toJson());
         var stati = new LinkedList<Document>();
         if (json != null) flatternStatus(json, stati);
@@ -331,7 +331,7 @@ public enum Utils {
     // is a Tweet or a Retweet. A Tweet is a text
     // Message that has an author as well is not
     // a Retweet nor a Quote
-    static boolean isTweet(BsonDocument bson) {
+    public static boolean isTweet(BsonDocument bson) {
         return !bson.containsKey("retweeted_status")
                 && (!bson.containsKey("quoted_status_id") || bson.get("quoted_status_id").isNull())
                 && (!bson.containsKey("in_reply_to_status_id") || bson.get("in_reply_to_status_id").isNull());
@@ -342,7 +342,7 @@ public enum Utils {
     // share of a Tweet with the restriction that
     // every respond to a Retweet is a respond to
     // the original Tweet itself.
-    static boolean isRetweet(BsonDocument bson) {
+    public static boolean isRetweet(BsonDocument bson) {
         return (bson.containsKey("retweeted_status")
                 && (!bson.containsKey("quoted_status_id") || bson.get("quoted_status_id").isNull())
                 && (!bson.containsKey("in_reply_to_status_id") || bson.get("in_reply_to_status_id").isNull()));
@@ -353,7 +353,7 @@ public enum Utils {
     // is a commented Retweet. In contrast to a Retweet
     // a Quote is a new Tweet object meaning the it is
     // possible to comment a Quote.
-    static boolean isQuote(BsonDocument bson) {
+    public static boolean isQuote(BsonDocument bson) {
         return !bson.containsKey("retweeted_status")
                 && (bson.containsKey("quoted_status_id") && !bson.get("quoted_status_id").isNull())
                 && (!bson.containsKey("in_reply_to_status_id") || bson.get("in_reply_to_status_id").isNull());
@@ -362,7 +362,7 @@ public enum Utils {
     // This function checks whether a Bson-Document
     // is a Reply-Tweet. Replies are basically comments
     // on ether Tweets, Quotes or other Replies.
-    static boolean isReply(BsonDocument bson) {
+    public static boolean isReply(BsonDocument bson) {
         return !bson.containsKey("retweeted_status")
                 && (!bson.containsKey("quoted_status_id") || bson.get("quoted_status_id").isNull())
                 && (bson.containsKey("in_reply_to_status_id") && !bson.get("in_reply_to_status_id").isNull());
@@ -373,7 +373,7 @@ public enum Utils {
     // is a Reply that includes a Quote. A Quoted-Reply
     // can be performed by copying the link of a Tweet
     // in the comment-filed of another Tweet.
-    static boolean isQuotedReply(BsonDocument bson) {
+    public static boolean isQuotedReply(BsonDocument bson) {
         return !bson.containsKey("retweeted_status")
                 && (bson.containsKey("quoted_status_id") && !bson.get("quoted_status_id").isNull())
                 && (bson.containsKey("in_reply_to_status_id") && !bson.get("in_reply_to_status_id").isNull());
@@ -385,7 +385,7 @@ public enum Utils {
     // regular Tweet. Since this is a Retweed by
     // itself, every Reply to this Quoted-Retweet
     // is a Reply to the original Tweet.
-    static boolean isQuotedRetweet(BsonDocument bson) {
+    public static boolean isQuotedRetweet(BsonDocument bson) {
         return bson.containsKey("retweeted_status")
                 && (bson.containsKey("quoted_status_id") && !bson.get("quoted_status_id").isNull())
                 && (!bson.containsKey("in_reply_to_status_id") || bson.get("in_reply_to_status_id").isNull());

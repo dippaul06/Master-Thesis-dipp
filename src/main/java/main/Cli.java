@@ -16,6 +16,8 @@ public class Cli {
 
     static void DONE() { System.out.println(boldBrightBlue("DONE DONE DONE")); }
 
+
+    // MAIN METHOD
     public static void main(String[] args) throws Exception {
         var options = new Options()
                 .addOption("h", "help", false, "print help")

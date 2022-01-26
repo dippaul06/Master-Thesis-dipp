@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'idea'
 }
 
 group 'org.example'
@@ -10,6 +11,8 @@ repositories {
     mavenCentral()
 }
 
+buildDir = new File(rootProject.projectDir, "build/" + project.name)
+
 jar {
     zip64 = true
     exclude "META-INF/*.SF"
@@ -18,16 +21,28 @@ jar {
     baseName = "$project.name"
 
     manifest {
-        attributes "Main-Class": "cli.Cli"
+        attributes "Main-Class": "main.Cli"
     }
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 }
 
+task fatJar(type: Jar) {
+    manifest {
+        attributes "Main-Class": "main.Cli"
+    }
+    archiveClassifier = "all"
+    from {
+//        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+//    with jar
+}
+
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     implementation 'com.ebay.bsonpatch:bsonpatch:0.4.9'
     implementation 'com.google.guava:guava:31.0.1-jre'
     implementation 'com.google.code.gson:gson:2.8.9'
