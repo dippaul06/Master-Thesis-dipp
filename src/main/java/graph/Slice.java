@@ -19,8 +19,8 @@ import tech.tablesaw.api.Table;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
 import utils.GraphUtils;
-import utils.Model;
-import utils.Model.User;
+import model.Model.User;
+import utils.UserUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -164,7 +164,7 @@ public class Slice extends Graph<User, Edge> {
 
     public void exportUserLabels(Path path, String name) throws IOException {
         checkArgument(Files.notExists(path.resolve(name)));
-        var stats = new Utils.UserStats();
+        var stats = new UserUtils();
         var map = new LongOpenHashSet();
         vertexSet().forEach(user -> {
             if (edgesOf(user).size() > 0

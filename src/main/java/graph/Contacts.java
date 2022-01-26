@@ -4,9 +4,9 @@ import com.google.common.collect.Iterables;
 import it.unimi.dsi.fastutil.longs.Long2LongMap;
 import it.unimi.dsi.fastutil.longs.Long2LongOpenHashMap;
 import utils.BsonUtils;
-import utils.Model;
-import utils.Model.*;
-import utils.Store;
+import model.Model;
+import model.Model.*;
+import model.Store;
 
 import java.time.LocalDateTime;
 import java.util.*;

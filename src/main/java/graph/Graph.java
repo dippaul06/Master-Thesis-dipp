@@ -1,11 +1,9 @@
 package graph;
 
-//import com.google.common.collect.Sets;
-
 import datastructures.other.Tuples;
 import datastructures.other.Tuples.Tuple2;
 
-import org.apache.commons.compress.utils.Sets;
+import org.eclipse.collections.impl.factory.Sets;
 import org.jgrapht.alg.scoring.*;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultUndirectedWeightedGraph;
@@ -16,8 +14,8 @@ import tech.tablesaw.api.LongColumn;
 import tech.tablesaw.api.Table;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
-import utils.Log;
-import utils.Model;
+import system.Log;
+import model.Model;
 import utils.Utils;
 
 import java.io.IOException;

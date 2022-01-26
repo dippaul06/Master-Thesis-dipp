@@ -1,4 +1,4 @@
-package utils;
+package model;
 
 import com.google.common.base.Stopwatch;
 import io.reactivex.rxjava3.core.Flowable;
@@ -28,11 +28,11 @@ import static java.util.Objects.isNull;
 import static java.util.stream.Collectors.toList;
 import static utils.Contracts.*;
 import static utils.FutureUtils.allAsList;
-import static utils.Log.info;
-import static utils.Model.*;
-import static utils.Model.StatusState.*;
-import static utils.Model.UserState.DELETED;
-import static utils.Model.UserState.NOT_AVAILABLE;
+import static system.Log.info;
+import static model.Model.*;
+import static model.Model.StatusState.*;
+import static model.Model.UserState.DELETED;
+import static model.Model.UserState.NOT_AVAILABLE;
 import static utils.Utils.loadIdsFromFile;
 
 public enum Loader {

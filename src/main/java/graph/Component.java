@@ -1,6 +1,6 @@
 package graph;
 
-import corona_5g.Model.User;
+import model.Model.User;
 
 public class Component extends Graph<User, Edge> {
 

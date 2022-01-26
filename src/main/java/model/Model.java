@@ -1,4 +1,4 @@
-package utils;
+package model;
 
 
 import it.unimi.dsi.fastutil.longs.LongArrayList;
@@ -10,18 +10,19 @@ import org.bson.BsonDocument;
 import org.eclipse.collections.api.factory.SortedMaps;
 import system.Self;
 import utils.BsonUtils;
+import utils.Utils;
 
 import java.util.*;
 
 import static com.google.common.base.Preconditions.checkState;
-import static corona_5g.Model.UserState.DELETED;
-import static corona_5g.Utils.*;
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
+import static model.Model.UserState.DELETED;
 import static system.Contracts.checkArgument;
 import static system.Contracts.checkNotNull;
 import static utils.BsonUtils.beautiful;
 import static utils.BsonUtils.int64;
+import static utils.Utils.*;
 
 // ----------------------------------------------
 //  MODEL.
@@ -32,7 +33,9 @@ public enum Model {
     // ----------------------------------------------
     //  ID.
     // ----------------------------------------------
-    public interface Id { long id(); }
+    public interface Id {
+        long id();
+    }
 
     // ----------------------------------------------
     //  STATUS.
@@ -59,27 +62,63 @@ public enum Model {
             oldBson(_bson);
         }
 
-        public boolean isDummy() { return isNull(oldBson); }
-        public boolean isDeleted() { return nonNull(oldBson) && isNull(newBson); }
-        boolean isBeefedUp() { return isNull(newBson); }
-        public long id() { return id; }
-        public long userId() { return userId; }
-        public StatusState state() { return state; }
-        public Date createdAt() { checkState(!isDummy()); return extractCreatedAt(oldBson); }
-        public String text() { checkState(!isDummy()); return extractString(oldBson, "full_text"); }
+        public boolean isDummy() {
+            return isNull(oldBson);
+        }
 
-        public BsonDocument oldBson() { return oldBson; }
+        public boolean isDeleted() {
+            return nonNull(oldBson) && isNull(newBson);
+        }
+
+        boolean isBeefedUp() {
+            return isNull(newBson);
+        }
+
+        public long id() {
+            return id;
+        }
+
+        public long userId() {
+            return userId;
+        }
+
+        public StatusState state() {
+            return state;
+        }
+
+        public Date createdAt() {
+            checkState(!isDummy());
+            return extractCreatedAt(oldBson);
+        }
+
+        public String text() {
+            checkState(!isDummy());
+            return extractString(oldBson, "full_text");
+        }
+
+        public BsonDocument oldBson() {
+            return oldBson;
+        }
+
         public void oldBson(BsonDocument bson) {
             userId = extractUserId(bson);
             oldBson = bson;
         }
-        public BsonDocument newBson() { return newBson; }
+
+        public BsonDocument newBson() {
+            return newBson;
+        }
+
         public void newBson(BsonDocument bson) {
             userId = extractUserId(bson);
             newBson = bson;
         }
 
-        T state(StatusState _state) { state = _state; return self(); }
+        T state(StatusState _state) {
+            state = _state;
+            return self();
+        }
+
         boolean contains5G() {
             var str = oldBson.getString("full_text")
                     .getValue();
@@ -129,7 +168,7 @@ public enum Model {
             var urls = entities("urls");
             if (isNull(urls)) return EMPTY_S_LIST;
             var result = new ArrayList<String>();
-            for (var url : urls)  {
+            for (var url : urls) {
                 if (url.isDocument()) {
                     var doc = url.asDocument();
                     if (doc.containsKey("expanded_url")) {
@@ -144,7 +183,7 @@ public enum Model {
             var hashtags = entities("hashtags");
             if (isNull(hashtags)) return EMPTY_S_LIST;
             var result = new ArrayList<String>();
-            for (var tag : hashtags)  {
+            for (var tag : hashtags) {
                 if (tag.isDocument()) {
                     var doc = tag.asDocument();
                     if (doc.containsKey("text")) {
@@ -161,10 +200,12 @@ public enum Model {
     // ----------------------------------------------
     public static class Retweet extends Status<Retweet> {
         private ThreadSource<?> parent;
+
         Retweet(BsonDocument retweet, ThreadSource<?> _parent) {
             super(retweet);
             checkNotNull(parent = _parent);
         }
+
         public ThreadSource<?> parent() {
             return parent;
         }
@@ -203,8 +244,13 @@ public enum Model {
         protected Map<Long, QuotedReply> quotedReplies = new HashMap<>();
         protected Map<Long, QuotedRetweet> quotedRetweets = new HashMap<>();
 
-        ThreadSource(BsonDocument bson) { super(bson); }
-        ThreadSource(long id) { super(id); }
+        ThreadSource(BsonDocument bson) {
+            super(bson);
+        }
+
+        ThreadSource(long id) {
+            super(id);
+        }
 
         T addChild(Status<?> sts) {
             if (sts instanceof Retweet) retweets.put(sts.id(), (Retweet) sts);
@@ -244,21 +290,46 @@ public enum Model {
             quotedReplies.putAll(dummy.quotedReplies);
         }
 
-        public ThreadSource<?> parent() { return parent; }
-        public Map<Long, Quote> quotes() { return quotes; }
-        public Map<Long, Reply> replies() { return replies; }
-        public Map<Long, Retweet> retweets() { return retweets; }
-        public Map<Long, ThreadSource<?>> dummies() { return dummies; }
-        public Map<Long, QuotedReply> quotedReplies() { return quotedReplies; }
-        public Map<Long, QuotedRetweet> quotedRetweets() { return quotedRetweets; }
+        public ThreadSource<?> parent() {
+            return parent;
+        }
+
+        public Map<Long, Quote> quotes() {
+            return quotes;
+        }
+
+        public Map<Long, Reply> replies() {
+            return replies;
+        }
+
+        public Map<Long, Retweet> retweets() {
+            return retweets;
+        }
+
+        public Map<Long, ThreadSource<?>> dummies() {
+            return dummies;
+        }
+
+        public Map<Long, QuotedReply> quotedReplies() {
+            return quotedReplies;
+        }
+
+        public Map<Long, QuotedRetweet> quotedRetweets() {
+            return quotedRetweets;
+        }
     }
 
     // ----------------------------------------------
     //  TWEET.
     // ----------------------------------------------
     public static class Tweet extends ThreadSource<Tweet> {
-        Tweet(BsonDocument bson) { super(bson); }
-        Tweet(long id) { super(id); }
+        Tweet(BsonDocument bson) {
+            super(bson);
+        }
+
+        Tweet(long id) {
+            super(id);
+        }
     }
 
     // ----------------------------------------------
@@ -269,7 +340,10 @@ public enum Model {
             super(bson);
             checkNotNull(parent = _parent);
         }
-        public ThreadSource<?> parent() { return parent; }
+
+        public ThreadSource<?> parent() {
+            return parent;
+        }
     }
 
     // ----------------------------------------------
@@ -280,7 +354,10 @@ public enum Model {
             super(bson);
             checkNotNull(parent = _parent);
         }
-        public ThreadSource<?> parent() { return parent; }
+
+        public ThreadSource<?> parent() {
+            return parent;
+        }
     }
 
     // ----------------------------------------------
@@ -288,20 +365,27 @@ public enum Model {
     // ----------------------------------------------
     public static class QuotedReply extends ThreadSource<QuotedReply> {
         private ThreadSource<?> replSrc, quotSrc;
+
         QuotedReply(BsonDocument bson, ThreadSource<?> _replSrc, ThreadSource<?> _quotSrc) {
             super(bson);
             checkNotNull(replSrc = _replSrc);
             checkNotNull(quotSrc = _quotSrc);
         }
-        public ThreadSource<?> replSrc() { return replSrc; }
-        public ThreadSource<?> quotSrc() { return quotSrc; }
+
+        public ThreadSource<?> replSrc() {
+            return replSrc;
+        }
+
+        public ThreadSource<?> quotSrc() {
+            return quotSrc;
+        }
     }
 
     // ----------------------------------------------
     //  USER.
     // ----------------------------------------------
 
-    public enum UserState { DELETED, EXISTS, UNKNOWN, NOT_AVAILABLE }
+    public enum UserState {DELETED, EXISTS, UNKNOWN, NOT_AVAILABLE}
 
     public static class User implements Id {
         public UserState state;
@@ -338,7 +422,9 @@ public enum Model {
         Map<Long, QuotedReply> quotedReplies = new HashMap<>();
         Map<Long, QuotedRetweet> quotedRetweets = new HashMap<>();
 
-        public Map<Long, Retweet> retweets() { return retweets; }
+        public Map<Long, Retweet> retweets() {
+            return retweets;
+        }
 
         public void addVersion(BsonDocument bson) {
             if (!bson.containsKey("full_text"))
@@ -352,7 +438,9 @@ public enum Model {
             versions.put(extractCreatedAt(userBson), bson);
         }
 
-        public static User newUserFromId(long userId) { return new User(userId); }
+        public static User newUserFromId(long userId) {
+            return new User(userId);
+        }
 
         public static User newUserFromTweet(BsonDocument bson) {
             return new User(bson);
@@ -365,7 +453,9 @@ public enum Model {
             return user;
         }
 
-        public String toString() { return id + ""; }
+        public String toString() {
+            return id + "";
+        }
 
         public boolean equals(Object o) {
             if (this == o) return true;
@@ -390,22 +480,37 @@ public enum Model {
             for (BsonDocument doc : versions.values()) {
                 if (doc.containsKey("full_text")) {
                     return doc.getDocument("user");
-                }
-                else return doc;
+                } else return doc;
             }
             throw new IllegalStateException();
         }
 
-        public boolean isDeleted() { return state == DELETED; }
+        public boolean isDeleted() {
+            return state == DELETED;
+        }
 
-        public long id() { return id; }
-        public Date createdAt() { return extractCreatedAt(first()); }
-        public boolean isProtected() {  if (!first().containsKey("protected")) return false;
-        else return extractBoolean(first(), "protected"); }
-        public boolean isVerified() { if (!first().containsKey("verified")) return false;
-        else return extractBoolean(first(), "verified"); }
+        public long id() {
+            return id;
+        }
+
+        public Date createdAt() {
+            return extractCreatedAt(first());
+        }
+
+        public boolean isProtected() {
+            if (!first().containsKey("protected")) return false;
+            else return extractBoolean(first(), "protected");
+        }
+
+        public boolean isVerified() {
+            if (!first().containsKey("verified")) return false;
+            else return extractBoolean(first(), "verified");
+        }
+
         public int followerCount() {
-            return extractInt(first(), "followers_count"); }
+            return extractInt(first(), "followers_count");
+        }
+
         public int friendsCount() {
             if (!first().containsKey("friends_count")) {
                 System.out.println("NUMBER OF VERSIONS: " + versions.size());
@@ -416,11 +521,28 @@ public enum Model {
                         .forEach(System.out::println);
                 throw new IllegalStateException();
             }
-            return extractInt(first(), "friends_count"); }
-        public int favouritesCount() { return extractInt(first(), "favourites_count"); }
-        public String description() { return extractString(first(), "description"); }
-        public int statusesCount() { return extractInt(first(), "statuses_count"); }
-        public String screenName() { return extractString(first(), "screen_name"); }
-        public String location() { return extractString(first(), "location"); }
+            return extractInt(first(), "friends_count");
+        }
+
+        public int favouritesCount() {
+            return extractInt(first(), "favourites_count");
+        }
+
+        public String description() {
+            return extractString(first(), "description");
+        }
+
+        public int statusesCount() {
+            return extractInt(first(), "statuses_count");
+        }
+
+        public String screenName() {
+            return extractString(first(), "screen_name");
+        }
+
+        public String location() {
+            return extractString(first(), "location");
+        }
 //        public String url() { if (first().isEmpty()) return ""; return extractString(first(), "url"); }
     }
+}

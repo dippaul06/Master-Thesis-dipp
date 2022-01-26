@@ -1,9 +1,10 @@
-package utils;
+package model;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
 
 import org.bson.BsonDocument;
+import utils.Utils;
 
 import java.nio.file.Path;
 import java.util.*;
@@ -18,7 +19,7 @@ import static system.Contracts.*;
 import static utils.BsonUtils.beautiful;
 import static utils.BsonUtils.int64;
 import static utils.MainUtils.TCast.cast;
-import static utils.Model.*;
+import static model.Model.*;
 import static utils.Utils.*;
 
 // TODO bei undummy add Tweet

@@ -15,7 +15,6 @@ import org.jgrapht.alg.interfaces.VertexScoringAlgorithm;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultUndirectedGraph;
 import org.jgrapht.graph.SimpleGraph;
-import utils.TimeUtils;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;
@@ -37,7 +36,7 @@ import static java.util.Objects.*;
 import static system.Contracts.checkArgument;
 import static system.Contracts.checkState;
 import static utils.BsonUtils.beautiful;
-import static utils.Model.*;
+import static model.Model.*;
 
 public enum Utils {
     ;
