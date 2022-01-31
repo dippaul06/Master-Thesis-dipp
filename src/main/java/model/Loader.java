@@ -63,7 +63,7 @@ public enum Loader {
     // since the dataset is split in multple files
     // we use a thread for each file in order to parse
     // it.
-    private CompletableFuture<List<RawBsonDocument>> loadFile(Path file) {
+    public CompletableFuture<List<RawBsonDocument>> loadFile(Path file) {
         return CompletableFuture.supplyAsync(() -> {
             var result = new ArrayList<RawBsonDocument>();
             try {
