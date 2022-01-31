@@ -23,7 +23,9 @@ public class Cli {
     public static void main(String[] args) throws Exception {
         var options = new Options()
                 .addOption("h", "help", false, "print help")
-                .addOption("hw", "helloWorld", false, "simple hello world program");
+                .addOption("hw", "helloWorld", false, "simple hello world program")
+                .addOption("t", "test", false, "This is Dipps test")
+                ;
 
         var cmd = new DefaultParser().parse(options, args);
 
