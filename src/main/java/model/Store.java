@@ -23,7 +23,9 @@ import static model.Model.*;
 import static utils.Utils.*;
 
 // TODO bei undummy add Tweet
-public enum Store { get;
+public enum Store {
+    get;
+
 
     // Status count
     int stsCnt = 0;

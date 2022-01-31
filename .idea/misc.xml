@@ -4,7 +4,33 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="azul-15" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="azul-15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="697" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Store.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="296" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/system/SystemIO.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="305" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/system/Text.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="23" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Cli.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1290" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Loader.java" />
+        </OpenedFileInfo>
+      </list>
+    </option>
   </component>
 </project>

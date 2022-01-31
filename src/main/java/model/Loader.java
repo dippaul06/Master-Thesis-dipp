@@ -36,7 +36,12 @@ import static model.Model.UserState.NOT_AVAILABLE;
 import static utils.Utils.loadIdsFromFile;
 
 public enum Loader {
-    get;
+    //get;
+
+
+    //Trying to load
+    get();
+
 
     // ----------------------------------------------
     //  LOADING DATA FROM MICHAEL'S FILES.
