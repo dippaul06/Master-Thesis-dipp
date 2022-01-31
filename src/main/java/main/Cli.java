@@ -42,9 +42,9 @@ public class Cli {
         }
         if (cmd.hasOption("test")) {
             var arg = cmd.getArgList();
-            //var pathToFile = Path.of(arg.get(0));
-            var pathToFile = Path.of("~/global/D1/projects/umod/Fulltext_EN/coronarvirus6_2021-11-30.jsonstream.xzEN.csv");
-            ///global/D1/projects/umod/Fulltext_EN/coronarvirus6_2021-11-30.jsonstream.xzEN.csv
+            var pathToFile = Path.of(arg.get(0));
+            //
+
 
             System.out.println(boldBrightGreen("WE TRY TO LOAD ") + boldBrightBlue(pathToFile.toString()));
             new DipsTask_1().dipsFirstTask(pathToFile);
