@@ -11,24 +11,8 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="697" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Store.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="296" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/system/SystemIO.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="305" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/system/Text.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="23" />
+          <option name="caretOffset" value="1303" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Cli.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1290" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Loader.java" />
         </OpenedFileInfo>
       </list>
     </option>
