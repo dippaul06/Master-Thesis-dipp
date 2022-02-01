@@ -6,6 +6,7 @@ import model.Loader;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
+import transform.Transformer;
 
 import java.nio.file.Path;
 
@@ -42,13 +43,11 @@ public class Cli {
         }
         if (cmd.hasOption("test")) {
             var arg = cmd.getArgList();
-            var pathToFile = Path.of(arg.get(0));
-            //
-
-
-            System.out.println(boldBrightGreen("WE TRY TO LOAD ") + boldBrightBlue(pathToFile.toString()));
-            new DipsTask_1().dipsFirstTask(pathToFile);
-            Loader.get.loadFile(pathToFile);
+            var pathToFolder = Path.of(arg.get(0));
+            System.out.println(boldBrightGreen("WE TRY TO LOAD ALL FILES IN: ") + boldBrightBlue(pathToFolder.toString()));
+            new Transformer().loadXzDump(pathToFolder);
+//            new DipsTask_1().dipsFirstTask(pathToFolder);
+//            Loader.get.loadFile(pathToFolder);
         }
     }
 }
