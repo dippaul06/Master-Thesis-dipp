@@ -25,7 +25,7 @@ public class Cli {
         var options = new Options()
                 .addOption("h", "help", false, "print help")
                 .addOption("hw", "helloWorld", false, "simple hello world program")
-                .addOption("t", "test", false, "This is Dipps test")
+                .addOption("test", "test", false, "This is Dipps test")
                 ;
 
         var cmd = new DefaultParser().parse(options, args);

@@ -154,6 +154,8 @@ public class Transformer {
                     }
                     cnt++;
                     cuLine = reader.readLine();
+                    //I am adding
+                    System.out.println(cuLine);
                 }
                 reader.close();
                 stream.close();

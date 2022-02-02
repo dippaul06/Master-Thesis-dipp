@@ -11,7 +11,11 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="1303" />
+          <option name="caretOffset" value="1421" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Transformer.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="425" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Cli.java" />
         </OpenedFileInfo>
       </list>
