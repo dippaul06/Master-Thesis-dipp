@@ -126,6 +126,7 @@ public class Transformer {
     // Loads a batch from Michaels mongoDumpFiles
     private CompletableFuture<Tuples.Tuple2<List<Tweet>, List<Retweet>>>
     loadMichaelBatch(Path _path) {
+        System.out.println("DEBUG: LOAD PATH " + _path);
         return CompletableFuture.supplyAsync(() -> {
             final var twt = new ArrayList<Tweet>(1_000_000);
             final var rtw = new ArrayList<Retweet>(1_000_000);
@@ -137,6 +138,7 @@ public class Transformer {
                 var reader = new BufferedReader(new InputStreamReader(stream));
                 var cuLine = reader.readLine();
                 while (cuLine != null) {
+                    System.out.println("DEBUG: cuLine: " +  cuLine);
                     var dta = Document.parse(cuLine);
                     var usr = dta.get("user", Document.class);
                     var uid = Long.valueOf(dta.getString("id_str"));
@@ -189,7 +191,7 @@ public class Transformer {
     }
 
     public Transformer loadXzDump(Path folder) throws InterruptedException {
-        checkState(isDirectory(folder)); Log.info("LOAD MICHAEL");
+        checkState(isDirectory(folder)); Log.info("LOAD XZ");
         xzFiles.addAll(recursiveFiles(folder, "xz"));
         final var futures = new ConcurrentSet<CompletableFuture>();
         final var twt = Collections.synchronizedList(new ArrayList<Tweet>());
