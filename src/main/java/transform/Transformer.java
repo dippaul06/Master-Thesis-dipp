@@ -192,17 +192,20 @@ public class Transformer {
 
     public Transformer loadXzDump(Path folder) throws InterruptedException {
         checkState(isDirectory(folder)); Log.info("LOAD XZ");
+        System.out.println("THIS IS A TEST");
         xzFiles.addAll(recursiveFiles(folder, "xz"));
         final var futures = new ConcurrentSet<CompletableFuture>();
         final var twt = Collections.synchronizedList(new ArrayList<Tweet>());
         final var rtw = Collections.synchronizedList(new ArrayList<Retweet>());
         for (var path : xzFiles) {
+            System.out.println("THIS IS A ANOTHER TEST");
             int err = 0;
             RETRY:
             if (futures.size() < 100) {
                 var f = loadMichaelBatch(path);
                 futures.add(f);
                 f.thenAccept(tuple -> {
+                    System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
                     twt.addAll(tuple._1);
                     rtw.addAll(tuple._2);
                 });
