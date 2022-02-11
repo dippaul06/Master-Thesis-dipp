@@ -84,44 +84,44 @@ public class Transformer {
         }
     }
 
-    // Loads a batch from a mongo-dump (bson gzip)
-    private CompletableFuture<Tuples.Tuple2<List<Tweet>, List<Retweet>>>
-    loadMongoDumpBatch(Path _path) {
-        return CompletableFuture.supplyAsync(() -> {
-            final var frm = new SimpleDateFormat("EEE MMM dd HH:mm:ss Z yyyy");
-            final var twt = new ArrayList<Tweet>(30_000_000);
-            final var rtw = new ArrayList<Retweet>(30_000_000);
-            int cnt = 0;
-            try {
-                var fileIs = new FileInputStream(_path.toFile());
-                var stream = new GZIPInputStream(fileIs, 8192);
-                var sizeAr = new byte[4];
-                var sizeBu = ByteBuffer.wrap(sizeAr);
-                while (stream.readNBytes(sizeAr, 0, 4) > 0) {
-                    var sizeVa = sizeBu.order(LITTLE_ENDIAN).getInt();
-                    var dataAr = new byte[sizeVa];
-                    stream.readNBytes(dataAr, 4, sizeVa - 4);
-                    System.arraycopy(sizeAr, 0, dataAr, 0, 4);
-                    var bson = new RawBsonDocument(dataAr);
-                    var uid = bson.getInt64("_id").longValue();
-                    var dta = bson.getDocument("data");
-                    if (dta.containsKey("retweeted_status"))
-                        rtw.add(Retweet.of(uid, dta, frm));
-                    else twt.add(Tweet.of(uid, dta, frm));
-                    ++cnt;
-                    sizeBu.flip();
-                }
-                stream.close();
-                fileIs.close();
-            }
-            catch (IOException
-                    | ParseException e) {
-                e.printStackTrace();
-            }
-            count.addAndGet(cnt);
-            return Tuples.of(twt, rtw);
-        }, Executor.fixed);
-    }
+//    // Loads a batch from a mongo-dump (bson gzip)
+//    private CompletableFuture<Tuples.Tuple2<List<Tweet>, List<Retweet>>>
+//    loadMongoDumpBatch(Path _path) {
+//        return CompletableFuture.supplyAsync(() -> {
+//            final var frm = new SimpleDateFormat("EEE MMM dd HH:mm:ss Z yyyy");
+//            final var twt = new ArrayList<Tweet>(30_000_000);
+//            final var rtw = new ArrayList<Retweet>(30_000_000);
+//            int cnt = 0;
+//            try {
+//                var fileIs = new FileInputStream(_path.toFile());
+//                var stream = new GZIPInputStream(fileIs, 8192);
+//                var sizeAr = new byte[4];
+//                var sizeBu = ByteBuffer.wrap(sizeAr);
+//                while (stream.readNBytes(sizeAr, 0, 4) > 0) {
+//                    var sizeVa = sizeBu.order(LITTLE_ENDIAN).getInt();
+//                    var dataAr = new byte[sizeVa];
+//                    stream.readNBytes(dataAr, 4, sizeVa - 4);
+//                    System.arraycopy(sizeAr, 0, dataAr, 0, 4);
+//                    var bson = new RawBsonDocument(dataAr);
+//                    var uid = bson.getInt64("_id").longValue();
+//                    var dta = bson.getDocument("data");
+//                    if (dta.containsKey("retweeted_status"))
+//                        rtw.add(Retweet.of(uid, dta, frm));
+//                    else twt.add(Tweet.of(uid, dta, frm));
+//                    ++cnt;
+//                    sizeBu.flip();
+//                }
+//                stream.close();
+//                fileIs.close();
+//            }
+//            catch (IOException
+//                    | ParseException e) {
+//                e.printStackTrace();
+//            }
+//            count.addAndGet(cnt);
+//            return Tuples.of(twt, rtw);
+//        }, Executor.fixed);
+//    }
 
     // Loads a batch from Michaels mongoDumpFiles
     private CompletableFuture<Tuples.Tuple2<List<Tweet>, List<Retweet>>>
@@ -169,28 +169,28 @@ public class Transformer {
         }, Executor.fixed);
     }
 
-    public Transformer loadMongoDump(Path folder) throws IOException {
-        checkState(isDirectory(folder)); Log.info("LOAD DUMP");
-        Files.walk(folder)
-                .filter(f -> isRegularFile(f))
-                .forEach(mongoDumpFiles::add);
-        var watch = Stopwatch.createStarted();
-        var futures = mongoDumpFiles.stream()
-                .map(this::loadMongoDumpBatch)
-                .collect(toList());
-        var tuples = FutureUtils.allAsList(futures).join();
-        var f1 = CompletableFuture.runAsync(() -> {
-                    for (var t : tuples) { tweets.addAll(t._1); } },
-                Executor.fixed);
-        var f2 = CompletableFuture.runAsync(() -> {
-                    for (var t : tuples) { retweets.addAll(t._2); } },
-                Executor.fixed);
-        CompletableFuture.allOf(f1, f2)
-                .thenRun(status::off)
-                .join();
-        System.out.println("LOADED MONGO DUMP FILES: " + watch);
-        return this;
-    }
+//    public Transformer loadMongoDump(Path folder) throws IOException {
+//        checkState(isDirectory(folder)); Log.info("LOAD DUMP");
+//        Files.walk(folder)
+//                .filter(f -> isRegularFile(f))
+//                .forEach(mongoDumpFiles::add);
+//        var watch = Stopwatch.createStarted();
+//        var futures = mongoDumpFiles.stream()
+//                .map(this::loadMongoDumpBatch)
+//                .collect(toList());
+//        var tuples = FutureUtils.allAsList(futures).join();
+//        var f1 = CompletableFuture.runAsync(() -> {
+//                    for (var t : tuples) { tweets.addAll(t._1); } },
+//                Executor.fixed);
+//        var f2 = CompletableFuture.runAsync(() -> {
+//                    for (var t : tuples) { retweets.addAll(t._2); } },
+//                Executor.fixed);
+//        CompletableFuture.allOf(f1, f2)
+//                .thenRun(status::off)
+//                .join();
+//        System.out.println("LOADED MONGO DUMP FILES: " + watch);
+//        return this;
+//    }
 
     public Transformer loadXzDump(Path folder) throws InterruptedException {
         checkState(isDirectory(folder)); Log.info("LOAD XZ");

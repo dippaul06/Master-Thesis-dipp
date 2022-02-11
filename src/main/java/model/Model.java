@@ -385,7 +385,7 @@ public enum Model {
     //  USER.
     // ----------------------------------------------
 
-    public enum UserState {DELETED, EXISTS, UNKNOWN, NOT_AVAILABLE}
+    public enum UserState { DELETED, EXISTS, UNKNOWN, NOT_AVAILABLE }
 
     public static class User implements Id {
         public UserState state;
