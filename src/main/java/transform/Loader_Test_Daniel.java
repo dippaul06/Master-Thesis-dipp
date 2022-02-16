@@ -2,6 +2,7 @@ package transform;
 
 import datastructures.other.Tuples;
 import io.netty.util.internal.ConcurrentSet;
+import it.unimi.dsi.fastutil.BigList;
 import it.unimi.dsi.fastutil.objects.ObjectBigArrayBigList;
 import model.Store;
 import org.apache.commons.compress.compressors.xz.XZCompressorInputStream;
@@ -41,9 +42,22 @@ import static utils.FileUtils.recursiveFiles;
 public class Loader_Test_Daniel {
 
     private final AtomicInteger count;
+    private final List<Path> xzFiles;
+    final BigList<Retweet> retweets;
+    final BigList<Tweet> tweets;
+    //final Status status;
+
+
 
     public Loader_Test_Daniel() {
+
         count = new AtomicInteger();
+        xzFiles = new ArrayList<>();
+        retweets = new ObjectBigArrayBigList<>();
+        tweets = new ObjectBigArrayBigList<>();
+//        status = new Status();
+//        status.start();
+//        status.on();
     }
 
     // THIS READS THE FILE (ONLY ONE!!!)
@@ -60,7 +74,8 @@ public class Loader_Test_Daniel {
                 var cuLine = reader.readLine();
                 while (cuLine != null) {
                     System.out.println("DEBUG: cuLine: " +  cuLine);
-                    var dta = Document.parse(cuLine);
+                    //var dta = Document.parse(cuLine);
+                    var dta = RawBsonDocument.parse(cuLine);
                     // TRANSFORM:  Document --> RawBsonDocument || BsonDocument
                     docs.add(dta);
                     cnt++;
@@ -111,7 +126,7 @@ public class Loader_Test_Daniel {
         var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
         var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
         CompletableFuture.allOf(f1, f2)
-                .thenRun(status::off)
+                //.thenRun(status::off)
                 .join();
         return this;
     }
