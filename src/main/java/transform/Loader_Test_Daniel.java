@@ -24,6 +24,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 import static java.nio.file.Files.isDirectory;
 import static system.Contracts.checkState;
@@ -101,7 +102,7 @@ public class Loader_Test_Daniel {
         xzFiles.addAll(recursiveFiles(folder, "xz"));
         final var futures = new ConcurrentSet<CompletableFuture>();
         final var twt = Collections.synchronizedList(new ArrayList<Tweet>());
-        final var rtw = Collections.synchronizedList(new ArrayList<Retweet>());
+        final var rtw = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
         for (var path : xzFiles) {
             System.out.println("THIS IS A ANOTHER TEST");
             int err = 0;
@@ -109,10 +110,29 @@ public class Loader_Test_Daniel {
             if (futures.size() < 100) {
                 var f = loadMichaelBatch(path);
                 futures.add(f);
-                f.thenAccept(tuple -> {
+                f.thenAccept(list -> {
                     System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
-                    twt.addAll(tuple._1);
-                    rtw.addAll(tuple._2);
+
+                    // TODO: What you get here is a list of RawBsonDocument. We want to transform these into
+                    // Tweet, Retweet objects. But remember we want the retweet objects from our model in
+                    // transform/Model! So you need a way to tranform them. I gave an example below. 
+                    // PLEASER CONSIDER TO LOOP OVER THE FILES (SEE BELOW AFTER MAYBE BETTER).
+
+                    // IN utils.Utils you may find methods that help you decide what is what.
+
+                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
+                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
+                    
+                    // MAYBE BETTER
+
+                    for (var rawBsonDocument : list) {
+                        if (IS TWEET) {
+                            twt.add(rawBsonDocument -> tweet);
+                        }
+                        else if (IS RETWEET) {
+                            rtw.add(rawBsonDocument -> retweet);
+                        }
+                    }
                 });
                 f.thenRun(() -> futures.remove(f));
             }
