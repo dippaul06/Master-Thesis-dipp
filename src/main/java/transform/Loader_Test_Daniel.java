@@ -6,6 +6,7 @@ import it.unimi.dsi.fastutil.BigList;
 import it.unimi.dsi.fastutil.objects.ObjectBigArrayBigList;
 import model.Store;
 import org.apache.commons.compress.compressors.xz.XZCompressorInputStream;
+import org.bson.BsonDocument;
 import org.bson.Document;
 import org.bson.RawBsonDocument;
 import system.Log;
@@ -101,8 +102,8 @@ public class Loader_Test_Daniel {
         System.out.println("THIS IS A TEST");
         xzFiles.addAll(recursiveFiles(folder, "xz"));
         final var futures = new ConcurrentSet<CompletableFuture>();
-        final var twt = Collections.synchronizedList(new ArrayList<Tweet>());
-        final var rtw = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
+        final var bson = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
+//        final var rtw = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
         for (var path : xzFiles) {
             System.out.println("THIS IS A ANOTHER TEST");
             int err = 0;
@@ -111,28 +112,33 @@ public class Loader_Test_Daniel {
                 var f = loadMichaelBatch(path);
                 futures.add(f);
                 f.thenAccept(list -> {
-                    System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
 
-                    // TODO: What you get here is a list of RawBsonDocument. We want to transform these into
-                    // Tweet, Retweet objects. But remember we want the retweet objects from our model in
-                    // transform/Model! So you need a way to tranform them. I gave an example below. 
-                    // PLEASER CONSIDER TO LOOP OVER THE FILES (SEE BELOW AFTER MAYBE BETTER).
 
-                    // IN utils.Utils you may find methods that help you decide what is what.
+                    bson.addAll(list);
 
-                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
-                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
-                    
-                    // MAYBE BETTER
 
-                    for (var rawBsonDocument : list) {
-                        if (IS TWEET) {
-                            twt.add(rawBsonDocument -> tweet);
-                        }
-                        else if (IS RETWEET) {
-                            rtw.add(rawBsonDocument -> retweet);
-                        }
-                    }
+//                    System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
+//
+//                    // TODO: What you get here is a list of RawBsonDocument. We want to transform these into
+//                    // Tweet, Retweet objects. But remember we want the retweet objects from our model in
+//                    // transform/Model! So you need a way to tranform them. I gave an example below.
+//                    // PLEASER CONSIDER TO LOOP OVER THE FILES (SEE BELOW AFTER MAYBE BETTER).
+//
+//                    // IN utils.Utils you may find methods that help you decide what is what.
+//
+//                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
+//                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
+//
+//                    // MAYBE BETTER
+//
+//                    for (var rawBsonDocument : list) {
+//                        if (IS TWEET) {
+//                            twt.add(rawBsonDocument -> tweet);
+//                        }
+//                        else if (IS RETWEET) {
+//                            rtw.add(rawBsonDocument -> retweet);
+//                        }
+//                    }
                 });
                 f.thenRun(() -> futures.remove(f));
             }
@@ -143,11 +149,16 @@ public class Loader_Test_Daniel {
             }
         }
         CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
-        var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
-        CompletableFuture.allOf(f1, f2)
-                //.thenRun(status::off)
-                .join();
+
+        for (var rawBsonDocument : bson) {
+            Store.get.store((BsonDocument) bson);
+        }
+        
+//        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
+//        var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
+//        CompletableFuture.allOf(f1, f2)
+//                //.thenRun(status::off)
+//                .join();
         return this;
     }
 
