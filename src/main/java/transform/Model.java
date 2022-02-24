@@ -484,10 +484,10 @@ public enum Model {
             }
             throw new IllegalStateException();
         }
-
-        public boolean isDeleted() {
-            return state == DELETED;
-        }
+//just commented - Dip
+//        public boolean isDeleted() {
+//            return state == DELETED;
+//        }
 
         public long id() {
             return id;

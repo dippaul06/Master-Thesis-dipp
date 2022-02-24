@@ -1,4 +1,5 @@
 package transform;
+import utils.Utils;
 
 import datastructures.other.Tuples;
 import io.netty.util.internal.ConcurrentSet;
@@ -126,19 +127,31 @@ public class Loader_Test_Daniel {
 //
 //                    // IN utils.Utils you may find methods that help you decide what is what.
 //
-//                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
-//                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
+                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
+                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
+
+
+                    Tweet.addall(list.stream().map(utils.Utils.isTweet(bson)).collect(Collectors.toList()));
 //
 //                    // MAYBE BETTER
 //
-//                    for (var rawBsonDocument : list) {
-//                        if (IS TWEET) {
-//                            twt.add(rawBsonDocument -> tweet);
-//                        }
-//                        else if (IS RETWEET) {
-//                            rtw.add(rawBsonDocument -> retweet);
-//                        }
-//                    }
+                    for (var rawBsonDocument : list) {
+                        if (IS TWEET) {
+                            twt.add(rawBsonDocument -> tweet);
+                        }
+                        else if (IS RETWEET) {
+                            rtw.add(rawBsonDocument -> retweet);
+                        }
+                    }
+
+
+                    for (var rawBsonDocument : list) {
+                        if (Tweet) {
+                            Tweet.add(utils.Utils.isTweet(rawBsonDocument));
+                        }
+                    }
+
+
                 });
                 f.thenRun(() -> futures.remove(f));
             }
