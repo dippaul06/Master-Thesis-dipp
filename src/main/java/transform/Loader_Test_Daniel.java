@@ -74,7 +74,7 @@ public class Loader_Test_Daniel {
                 var reader = new BufferedReader(new InputStreamReader(stream));
                 var cuLine = reader.readLine();
                 while (cuLine != null) {
-                    System.out.println("DEBUG: cuLine: " +  cuLine);
+//                    System.out.println("DEBUG: cuLine: " +  cuLine);
                     //var dta = Document.parse(cuLine);
                     var dta = RawBsonDocument.parse(cuLine);
                     // TRANSFORM:  Document --> RawBsonDocument || BsonDocument
@@ -123,7 +123,13 @@ public class Loader_Test_Daniel {
         }
         CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
         System.out.println("START TO LOAD STUFF INTO STORE");
+        var cnt = 0;
         for (var rawBsonDocument : bson) {
+            if (cnt++ % 10_000 == 0) {
+                System.out.println("===============================");
+                System.out.println(Store.get);
+                System.out.println("===============================");
+            }
             Store.get.store(rawBsonDocument);
         }
         
