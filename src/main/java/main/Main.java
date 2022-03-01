@@ -1,6 +1,7 @@
 package main;
 
-import transform.Transformer;
+//import transform.Transformer;
+import transform.Loader_Test_Daniel;
 
 import java.nio.file.Path;
 
@@ -11,5 +12,6 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         Path path = Path.of("/global/D1/projects/umod/dipp/");
 //        new Transformer().loadXzDump(path);
+        new Loader_Test_Daniel().loadXzDump(path);
     }
 }
