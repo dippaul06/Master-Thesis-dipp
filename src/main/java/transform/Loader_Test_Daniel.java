@@ -120,17 +120,20 @@ public class Loader_Test_Daniel {
                 break RETRY;
             }
         }
+        System.out.println("FUTURES SET UP");
         CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-        System.out.println("START TO LOAD STUFF INTO STORE");
+        System.out.println("START TO LOAD STUFF INTO STORE " + bson.size());
         var cnt = 0;
         for (var rawBsonDocument : bson) {
-            if (cnt++ % 10_000 == 0) {
-                System.out.println("===============================");
-                System.out.println(Store.get);
-                System.out.println("===============================");
-            }
+//            if (cnt++ % 10_000 == 0) {
+
+//            }
             Store.get.store(rawBsonDocument);
         }
+
+        System.out.println("===============================");
+        System.out.println(Store.get);
+        System.out.println("===============================");
         
 //        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
 //        var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
