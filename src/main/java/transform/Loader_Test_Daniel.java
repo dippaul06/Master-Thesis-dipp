@@ -1,15 +1,16 @@
 package transform;
+import utils.Utils;
 
 import datastructures.other.Tuples;
 import io.netty.util.internal.ConcurrentSet;
+import it.unimi.dsi.fastutil.BigList;
 import it.unimi.dsi.fastutil.objects.ObjectBigArrayBigList;
 import model.Store;
 import org.apache.commons.compress.compressors.xz.XZCompressorInputStream;
+import org.bson.BsonDocument;
 import org.bson.Document;
 import org.bson.RawBsonDocument;
 import system.Log;
-import transform.Model.Retweet;
-import transform.Model.Tweet;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -23,6 +24,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 import static java.nio.file.Files.isDirectory;
 import static system.Contracts.checkState;
@@ -41,9 +43,21 @@ import static utils.FileUtils.recursiveFiles;
 public class Loader_Test_Daniel {
 
     private final AtomicInteger count;
+    private final List<Path> xzFiles;
+//    final BigList<Retweet> retweets;
+//    final BigList<Tweet> tweets;
+    //final Status status;
+
+
 
     public Loader_Test_Daniel() {
         count = new AtomicInteger();
+        xzFiles = new ArrayList<>();
+//        retweets = new ObjectBigArrayBigList<>();
+//        tweets = new ObjectBigArrayBigList<>();
+//        status = new Status();
+//        status.start();
+//        status.on();
     }
 
     // THIS READS THE FILE (ONLY ONE!!!)
@@ -59,13 +73,14 @@ public class Loader_Test_Daniel {
                 var reader = new BufferedReader(new InputStreamReader(stream));
                 var cuLine = reader.readLine();
                 while (cuLine != null) {
-                    System.out.println("DEBUG: cuLine: " +  cuLine);
-                    var dta = Document.parse(cuLine);
+//                    System.out.println("DEBUG: cuLine: " +  cuLine);
+                    //var dta = Document.parse(cuLine);
+                    var dta = RawBsonDocument.parse(cuLine);
                     // TRANSFORM:  Document --> RawBsonDocument || BsonDocument
                     docs.add(dta);
                     cnt++;
                     cuLine = reader.readLine();
-                    System.out.println(cuLine);
+//                    System.out.println(cuLine);
                 }
                 reader.close();
                 stream.close();
@@ -85,8 +100,8 @@ public class Loader_Test_Daniel {
         System.out.println("THIS IS A TEST");
         xzFiles.addAll(recursiveFiles(folder, "xz"));
         final var futures = new ConcurrentSet<CompletableFuture>();
-        final var twt = Collections.synchronizedList(new ArrayList<Tweet>());
-        final var rtw = Collections.synchronizedList(new ArrayList<Retweet>());
+        final var bson = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
+//        final var rtw = Collections.synchronizedList(new ArrayList<RawBsonDocument>());
         for (var path : xzFiles) {
             System.out.println("THIS IS A ANOTHER TEST");
             int err = 0;
@@ -94,10 +109,8 @@ public class Loader_Test_Daniel {
             if (futures.size() < 100) {
                 var f = loadMichaelBatch(path);
                 futures.add(f);
-                f.thenAccept(tuple -> {
-                    System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
-                    twt.addAll(tuple._1);
-                    rtw.addAll(tuple._2);
+                f.thenAccept(list -> {
+                    bson.addAll(list);
                 });
                 f.thenRun(() -> futures.remove(f));
             }
@@ -107,12 +120,26 @@ public class Loader_Test_Daniel {
                 break RETRY;
             }
         }
+        System.out.println("FUTURES SET UP");
         CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
-        var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
-        CompletableFuture.allOf(f1, f2)
-                .thenRun(status::off)
-                .join();
+        System.out.println("START TO LOAD STUFF INTO STORE " + bson.size());
+        var cnt = 0;
+        for (var rawBsonDocument : bson) {
+//            if (cnt++ % 10_000 == 0) {
+
+//            }
+            Store.get.store(rawBsonDocument);
+        }
+
+        System.out.println("===============================");
+        System.out.println(Store.get);
+        System.out.println("===============================");
+        
+//        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
+//        var f2 = CompletableFuture.runAsync(() -> retweets.addAll(rtw), Executor.fixed);
+//        CompletableFuture.allOf(f1, f2)
+//                //.thenRun(status::off)
+//                .join();
         return this;
     }
 
