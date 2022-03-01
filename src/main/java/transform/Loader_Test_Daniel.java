@@ -11,8 +11,6 @@ import org.bson.BsonDocument;
 import org.bson.Document;
 import org.bson.RawBsonDocument;
 import system.Log;
-import transform.Model.Retweet;
-import transform.Model.Tweet;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -46,8 +44,8 @@ public class Loader_Test_Daniel {
 
     private final AtomicInteger count;
     private final List<Path> xzFiles;
-    final BigList<Retweet> retweets;
-    final BigList<Tweet> tweets;
+//    final BigList<Retweet> retweets;
+//    final BigList<Tweet> tweets;
     //final Status status;
 
 
@@ -56,8 +54,8 @@ public class Loader_Test_Daniel {
 
         count = new AtomicInteger();
         xzFiles = new ArrayList<>();
-        retweets = new ObjectBigArrayBigList<>();
-        tweets = new ObjectBigArrayBigList<>();
+//        retweets = new ObjectBigArrayBigList<>();
+//        tweets = new ObjectBigArrayBigList<>();
 //        status = new Status();
 //        status.start();
 //        status.on();
@@ -113,45 +111,7 @@ public class Loader_Test_Daniel {
                 var f = loadMichaelBatch(path);
                 futures.add(f);
                 f.thenAccept(list -> {
-
-
                     bson.addAll(list);
-
-
-//                    System.out.println("THIS IS A ANOTHER TEST FROM THE FUTURE");
-//
-//                    // TODO: What you get here is a list of RawBsonDocument. We want to transform these into
-//                    // Tweet, Retweet objects. But remember we want the retweet objects from our model in
-//                    // transform/Model! So you need a way to tranform them. I gave an example below.
-//                    // PLEASER CONSIDER TO LOOP OVER THE FILES (SEE BELOW AFTER MAYBE BETTER).
-//
-//                    // IN utils.Utils you may find methods that help you decide what is what.
-//
-                    twt.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Tweet).collect(Collectors.toList()));
-                    rtw.addAll(list.stream().map(HERE COMES THE FUNCTION THAT TRANSFORMS RawBsonDocument -> Retweet).collect(Collectors.toList()));
-
-
-                    Tweet.addall(list.stream().map(utils.Utils.isTweet(bson)).collect(Collectors.toList()));
-//
-//                    // MAYBE BETTER
-//
-                    for (var rawBsonDocument : list) {
-                        if (IS TWEET) {
-                            twt.add(rawBsonDocument -> tweet);
-                        }
-                        else if (IS RETWEET) {
-                            rtw.add(rawBsonDocument -> retweet);
-                        }
-                    }
-
-
-                    for (var rawBsonDocument : list) {
-                        if (Tweet) {
-                            Tweet.add(utils.Utils.isTweet(rawBsonDocument));
-                        }
-                    }
-
-
                 });
                 f.thenRun(() -> futures.remove(f));
             }
@@ -162,9 +122,9 @@ public class Loader_Test_Daniel {
             }
         }
         CompletableFuture.allOf(futures.toArray(new CompletableFuture[0])).join();
-
+        System.out.println("START TO LOAD STUFF INTO STORE");
         for (var rawBsonDocument : bson) {
-            Store.get.store((BsonDocument) bson);
+            Store.get.store(rawBsonDocument);
         }
         
 //        var f1 = CompletableFuture.runAsync(() -> tweets.addAll(twt), Executor.fixed);
