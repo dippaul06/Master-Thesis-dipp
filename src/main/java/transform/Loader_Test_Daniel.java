@@ -51,7 +51,6 @@ public class Loader_Test_Daniel {
 
 
     public Loader_Test_Daniel() {
-
         count = new AtomicInteger();
         xzFiles = new ArrayList<>();
 //        retweets = new ObjectBigArrayBigList<>();
@@ -81,7 +80,7 @@ public class Loader_Test_Daniel {
                     docs.add(dta);
                     cnt++;
                     cuLine = reader.readLine();
-                    System.out.println(cuLine);
+//                    System.out.println(cuLine);
                 }
                 reader.close();
                 stream.close();
