@@ -7,30 +7,4 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="azul-15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="UnattendedHostPersistenceState">
-    <option name="openedFilesInfos">
-      <list>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="1319" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Loader_Test_Daniel.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="6683" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Transformer.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="215" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Cli.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="937" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Model.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="427" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
-        </OpenedFileInfo>
-      </list>
-    </option>
-  </component>
 </project>

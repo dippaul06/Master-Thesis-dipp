@@ -1,13 +1,16 @@
 package main;
 
+import model_Final.Loader;
 
-import experiments.DipsTask_1;
-import model.Loader;
+//import experiments.DipsTask_1;
+
+
+//import model.Loader;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
 //import transform.Transformer;
-import transform.Loader_Test_Daniel;
+//import transform.Loader_Test_Daniel;
 
 import java.nio.file.Path;
 
@@ -47,7 +50,8 @@ public class Cli {
             var pathToFolder = Path.of(arg.get(0));
             System.out.println(boldBrightGreen("WE TRY TO LOAD ALL FILES IN: ") + boldBrightBlue(pathToFolder.toString()));
  //           new Transformer().loadXzDump(pathToFolder);
-            new Loader_Test_Daniel().loadXzDump(pathToFolder);
+ //           new Loader_Test_Daniel().loadXzDump(pathToFolder);
+            new Loader().loadXzDump(pathToFolder);
 //            new DipsTask_1().dipsFirstTask(pathToFolder);
 //            Loader.get.loadFile(pathToFolder);
         }

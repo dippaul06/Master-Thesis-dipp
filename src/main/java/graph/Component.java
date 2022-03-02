@@ -1,6 +1,6 @@
 package graph;
 
-import model.Model.User;
+import model_Final.Model.User;
 
 public class Component extends Graph<User, Edge> {
 

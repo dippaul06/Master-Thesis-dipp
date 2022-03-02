@@ -3,14 +3,14 @@ package utils;
 import tech.tablesaw.api.*;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
-import model.Model.*;
+import model_Final.Model.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 import static system.Contracts.checkArgument;
-import static model.Model.UserState.NOT_AVAILABLE;
+import static model_Final.Model.UserState.NOT_AVAILABLE;
 import static utils.TimeUtils.dateToLocalDateTime;
 
 // ----------------------------------------------
@@ -54,7 +54,8 @@ public class UserUtils {
         createdAt.append(date);
         verifiedCol.append(user.isVerified());
         protectedCol.append(user.isProtected());
-        deletedCol.append(user.isDeleted());
+        //Commenting - Dip
+//        deletedCol.append(user.isDeleted());
         friendsCountCol.append(user.friendsCount());
         followersCountCol.append(user.followerCount());
         statusesCountCol.append(user.statusesCount());
@@ -75,7 +76,8 @@ public class UserUtils {
         createdAt.append(date);
         verifiedCol.append(user.isVerified());
         protectedCol.append(user.isProtected());
-        deletedCol.append(user.isDeleted());
+        //Commenting - Dip
+//        deletedCol.append(user.isDeleted());
         friendsCountCol.append(user.friendsCount());
         followersCountCol.append(user.followerCount());
         statusesCountCol.append(user.statusesCount());
@@ -96,7 +98,8 @@ public class UserUtils {
         createdAt.append(date);
         verifiedCol.append(user.isVerified());
         protectedCol.append(user.isProtected());
-        deletedCol.append(user.isDeleted());
+        //Commenting - Dip
+//        deletedCol.append(user.isDeleted());
         friendsCountCol.append(user.friendsCount());
         followersCountCol.append(user.followerCount());
         statusesCountCol.append(user.statusesCount());
