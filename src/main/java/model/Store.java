@@ -26,7 +26,6 @@ import static utils.Utils.*;
 public enum Store {
     get;
 
-
     // Status count
     int stsCnt = 0;
     public Map<Long, User> users = new HashMap<>();

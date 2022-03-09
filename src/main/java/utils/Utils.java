@@ -41,6 +41,11 @@ import static model.Model.*;
 public enum Utils {
     ;
 
+    public static Optional<String> createOptionalFromLocation(String str) {
+        if (str.equals("'none'")) return Optional.empty();
+        else return Optional.of(str);
+    }
+
     public static <V extends Id, E> DefaultUndirectedGraph<Long, DefaultEdge> copyGraph(graph.Graph<V, E> graph) {
         var result = new DefaultUndirectedGraph<Long, DefaultEdge>(DefaultEdge.class);
         for (var vertexId : graph.vertexIds())
