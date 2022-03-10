@@ -11,23 +11,27 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
+          <option name="caretOffset" value="56" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Config.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="602" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Locator.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="109" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/Transforming_freq_files/fileReading.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
           <option name="caretOffset" value="1319" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Loader_Test_Daniel.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="6683" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Transformer.java" />
+          <option name="caretOffset" value="702" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model_Final/Loader.java" />
         </OpenedFileInfo>
         <OpenedFileInfo>
-          <option name="caretOffset" value="215" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Cli.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="937" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/transform/Model.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="427" />
+          <option name="caretOffset" value="54" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
         </OpenedFileInfo>
       </list>
