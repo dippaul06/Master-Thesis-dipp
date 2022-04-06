@@ -96,8 +96,10 @@ public class Locator {
     }
 
     public void exportUnresolvedLocations() throws IOException {
-        if (!Files.exists(UNREOLVED_LOCATIONS_FILE)) Files.createFile(UNREOLVED_LOCATIONS_FILE);
-        var writer = FileUtils.newBufferedWriterAppend(UNREOLVED_LOCATIONS_FILE);
+//        if (!Files.exists(UNREOLVED_LOCATIONS_FILE)) Files.createFile(UNREOLVED_LOCATIONS_FILE);
+
+        if (!Files.exists(Path.of("/global/D1/projects/umod/dipp/location_test_latest_mar_09/Freq-Files-Merged/test.txt"))) Files.createFile(Path.of("/global/D1/projects/umod/dipp/location_test_latest_mar_09/Freq-Files-Merged/test.txt"));
+        var writer = FileUtils.newBufferedWriterAppend(Path.of("/global/D1/projects/umod/dipp/location_test_latest_mar_09/Freq-Files-Merged/test.txt"));
         unresolvedLocations.forEach((loc, cnt) -> {
             try {
                 writer.write(cnt + "," + loc);

@@ -11,10 +11,6 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="589" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/graph/Graph.java" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
           <option name="caretOffset" value="63" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/graph/Component.java" />
         </OpenedFileInfo>
@@ -49,6 +45,10 @@
         <OpenedFileInfo>
           <option name="caretOffset" value="206" />
           <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="660" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model_Final/Locator.java" />
         </OpenedFileInfo>
       </list>
     </option>
