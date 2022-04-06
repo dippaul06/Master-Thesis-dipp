@@ -8,6 +8,8 @@ import graph.Contacts.RetweetContact;
 import it.unimi.dsi.fastutil.longs.LongOpenHashSet;
 import it.unimi.dsi.fastutil.objects.Object2IntLinkedOpenHashMap;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
+import model_Final.Model;
+import model_Final.Model.User;
 import org.jgrapht.alg.clustering.LabelPropagationClustering;
 import org.jgrapht.alg.connectivity.ConnectivityInspector;
 import org.jgrapht.alg.interfaces.ClusteringAlgorithm.Clustering;
@@ -19,7 +21,8 @@ import tech.tablesaw.api.Table;
 import tech.tablesaw.io.csv.CsvWriteOptions;
 import tech.tablesaw.io.csv.CsvWriter;
 import utils.GraphUtils;
-import model.Model.User;
+//import model.Model.User;
+
 import utils.UserUtils;
 
 import java.io.IOException;

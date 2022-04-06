@@ -3,10 +3,16 @@ package graph;
 import com.google.common.collect.Iterables;
 import it.unimi.dsi.fastutil.longs.Long2LongMap;
 import it.unimi.dsi.fastutil.longs.Long2LongOpenHashMap;
+import model_Final.Model;
+import model_Final.Model.Quote;
+import model_Final.Model.Reply;
+import model_Final.Model.Retweet;
+import model_Final.Model.ThreadSource;
+import model_Final.Store;
 import utils.BsonUtils;
-import model.Model;
-import model.Model.*;
-import model.Store;
+//import model.Model;
+//import model.Model.*;
+//import model.Store;
 
 import java.time.LocalDateTime;
 import java.util.*;
@@ -32,7 +38,7 @@ public enum Contacts {
     public static abstract class Contact<C extends Model.Status<C>> {
         public final long parentUserId;
         public final long childUserId;
-        final User parentUser, childUser;
+        final Model.User parentUser, childUser;
         final ThreadSource<?> parent;
         final LocalDateTime moment;
         final C child;
@@ -43,13 +49,13 @@ public enum Contacts {
             parentUserId = _parent.userId();
             childUserId = _child.userId();
             if (isNull(Store.get.users.get(parentUserId))) {
-                Store.get.users.put(parentUserId, User.newUserFromId(parentUserId));
+                Store.get.users.put(parentUserId, Model.User.newUserFromId(parentUserId));
                 System.out.println("ADDED : " + ++CNT + " / " + Store.get.users.size() + " ID: " + parentUserId + " PARENT ");
                 System.out.println(this.getClass().getName());
                 System.out.println(BsonUtils.beautiful(_parent.oldBson()));
             }
             if (isNull(Store.get.users.get(childUserId))) {
-                Store.get.users.put(childUserId, User.newUserFromId(childUserId));
+                Store.get.users.put(childUserId, Model.User.newUserFromId(childUserId));
                 System.out.println("ADDED : " + ++CNT + " / " + Store.get.users.size() + " ID: " + childUserId + " CHILD ");
                 System.out.println(BsonUtils.beautiful(_child.oldBson()));
             }
@@ -60,8 +66,8 @@ public enum Contacts {
         }
         public String toString() { return this.getClass().getName() + " " + moment; }
         public LocalDateTime moment() { return moment; }
-        public User childUser() { return childUser; }
-        public User parentUser() { return parentUser; }
+        public Model.User childUser() { return childUser; }
+        public Model.User parentUser() { return parentUser; }
         public long childUserId() { return childUserId; }
         public long parentUserId() { return parentUserId; }
     }
@@ -110,7 +116,7 @@ public enum Contacts {
     public int repairedCnt = 0;
 
     // TODO sanity checks
-    void addContacts(Status<?> status) {
+    void addContacts(Model.Status<?> status) {
 
         if (status instanceof Retweet) {
             var retweet = (Retweet) status;
@@ -170,7 +176,7 @@ public enum Contacts {
         System.out.println("QUOTE CONTACTS:     " + quotedContacts.size());
     }
 
-    public Iterator<Contact<? extends Status<?>>> contacts() {
+    public Iterator<Contact<? extends Model.Status<?>>> contacts() {
         return Iterables.concat(
                 retweetContacts,
                 commentContacts,

@@ -1,4 +1,4 @@
-package model;
+package model_Final;
 
 import datastructures.other.Tuples;
 import datastructures.other.Tuples.Tuple2;
@@ -7,6 +7,7 @@ import utils.FileUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -20,8 +21,9 @@ import static utils.FileUtils.newBufferedReader;
 import static utils.Utils.createOptionalFromLocation;
 
 // Location Database
-public enum Locator {
-    get;
+//public enum Locator {
+public class Locator {
+    //get;
 
     private final Map<String, Location> locations = new HashMap<>();
     private final Object2IntOpenHashMap<String> unresolvedLocations = new Object2IntOpenHashMap<>();
@@ -53,8 +55,9 @@ public enum Locator {
     }
 
     // TODO read locations from file
-    public void read() throws IOException {
-        var reader = newBufferedReader(LOCATIONS_FILE);
+    public void read(Path file) throws IOException {
+   //     var reader = newBufferedReader(LOCATIONS_FILE);
+        var reader = newBufferedReader(file);
         String line = "";
         String writtenLocationFromUser = "";
         int lineCount = 0;

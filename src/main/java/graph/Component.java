@@ -1,8 +1,9 @@
 package graph;
 
-import model.Model.User;
+import model_Final.Model;
 
-public class Component extends Graph<User, Edge> {
+//import model.Model.User;
+public class Component extends Graph<Model.User, Edge> {
 
     final Slice slice;
 
