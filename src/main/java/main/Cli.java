@@ -2,7 +2,7 @@ package main;
 
 
 //import experiments.DipsTask_1;
-//import model.Loader;
+import model_Final.Loader;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
@@ -47,9 +47,9 @@ public class Cli {
             var pathToFolder = Path.of(arg.get(0));
             System.out.println(boldBrightGreen("WE TRY TO LOAD ALL FILES IN: ") + boldBrightBlue(pathToFolder.toString()));
  //           new Transformer().loadXzDump(pathToFolder);
-            new Loader_Test_Daniel().loadXzDump(pathToFolder);
+ //           new Loader_Test_Daniel().loadXzDump(pathToFolder);
 //            new DipsTask_1().dipsFirstTask(pathToFolder);
-//            Loader.get.loadFile(pathToFolder);
+ //           Loader.get.loadFile(pathToFolder);
         }
     }
 }
