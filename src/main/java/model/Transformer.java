@@ -163,7 +163,7 @@ public class Transformer {
     public static void run(Path dtaFolder, Path tgtFolder) throws InterruptedException, IOException {
         isTrue(Files.isDirectory(tgtFolder));
         isTrue(Files.isDirectory(dtaFolder));
-        Locator.get.readJohannesLocations(UNRESOLVED_LOCATIONS_FILE, RESOLVED_LOCATIONS_FILE);
+        Locator.get.readJohannesLocations(LOCATIONS_FILE_1_LOC, LOCATIONS_FILE_1_SLV);
 //        Locator.get.readJohannesLocations(LOCATIONS_FILE_2_LOC, LOCATIONS_FILE_2_SLV);
 //        Locator.get.readJohannesLocations(LOCATIONS_FILE_3_LOC, LOCATIONS_FILE_3_SLV);
         System.out.println(Locator.get);
