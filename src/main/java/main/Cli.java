@@ -35,6 +35,13 @@ public class Cli {
             Log.info("transform files to LZ4");
             Transformer.run(DATA_FOLDER, DATA_COMPRESSED_FOLDER_REMOTE);
         }
+        if (cmd.hasOption("hw")) {
+            //var arg = cmd.getArgList();
+            //var ar1 = Path.of(arg.get(0));
+            System.out.println(boldBrightGreen("HELLO WORLD"));
+            //System.out.println(boldBrightCyan("ARGUMENT WAS: " + ar1));
+            DONE();
+        }
         if (cmd.hasOption("all")) {
 //            Log.info("RUN ALL ANALYSIS");
 //            Log.info("START WITH TIMELINE");
