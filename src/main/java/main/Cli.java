@@ -43,17 +43,17 @@ public class Cli {
             DONE();
         }
         if (cmd.hasOption("all")) {
-//            Log.info("RUN ALL ANALYSIS");
-//            Log.info("START WITH TIMELINE");
-//            var timeline = new Timeline(DATA_COMPRESSED_FOLDER_REMOTE);
-//            Log.info("START WITH TWEETS");
-//            Tweets.run(timeline, RESULT_FOLDER_REMOTE);
-//            Log.info("START WITH HASHTAGS");
-//            Hashtags.run(timeline, RESULT_FOLDER_REMOTE);
-//            Log.info("START WITH USERS");
-//            Users.run(timeline, RESULT_FOLDER_REMOTE);
-//            Log.info("START WITH LOCATIONS");
-//            Locations.run(timeline, RESULT_FOLDER_REMOTE);
+            Log.info("RUN ALL ANALYSIS");
+            Log.info("START WITH TIMELINE");
+            var timeline = new Timeline(DATA_COMPRESSED_FOLDER_REMOTE);
+            Log.info("START WITH TWEETS");
+            Tweets.run(timeline, RESULT_FOLDER_REMOTE);
+            Log.info("START WITH HASHTAGS");
+            Hashtags.run(timeline, RESULT_FOLDER_REMOTE);
+            Log.info("START WITH USERS");
+            Users.run(timeline, RESULT_FOLDER_REMOTE);
+            Log.info("START WITH LOCATIONS");
+            Locations.run(timeline, RESULT_FOLDER_REMOTE);
             DONE();
         }
     }
