@@ -58,7 +58,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-  //      Locator.get.readJohannesLocations(LOCATIONS_FILE_1_LOC, LOCATIONS_FILE_1_SLV);
+        Locator.get.readJohannesLocations(LOCATIONS_FILE_1_LOC, LOCATIONS_FILE_1_SLV);
 //        Locator.get.readJohannesLocations(LOCATIONS_FILE_2_LOC, LOCATIONS_FILE_2_SLV);
 //        Locator.get.readJohannesLocations(LOCATIONS_FILE_3_LOC, LOCATIONS_FILE_3_SLV);
   //      System.out.println(Locator.get);

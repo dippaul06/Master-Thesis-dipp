@@ -195,7 +195,7 @@ public class Transformer {
     }
 
     static void compress(List<Status> minTweets, int nmn, Path folder) throws IOException {
-        OutputStream fout = Files.newOutputStream(folder.resolve("ukraine_short" + String.format("%04d", nmn) +".tar.lz4"));
+        OutputStream fout = Files.newOutputStream(folder.resolve("dip_initial_data_short" + String.format("%04d", nmn) +".tar.lz4"));
         BufferedOutputStream out = new BufferedOutputStream(fout);
         FramedLZ4CompressorOutputStream lzOut = new FramedLZ4CompressorOutputStream(out);
         for (var minTweet : minTweets) {
