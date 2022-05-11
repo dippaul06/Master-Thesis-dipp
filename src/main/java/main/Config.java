@@ -5,8 +5,8 @@ import java.nio.file.Path;
 public class Config {
 
     static final Path LOCATION_FOLDER = Path.of("/global/D1/projects/umod/dipp/Test/locations");
-    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("frequentplaces120000.txt");
-    public static final Path LOCATIONS_FILE_1_SLV = LOCATION_FOLDER.resolve("frequentplaces120000.txt.resolved");
+    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("frequentplaces40000.txt");
+    public static final Path LOCATIONS_FILE_1_SLV = LOCATION_FOLDER.resolve("frequentplaces40000.txt.resolved");
 //    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("locations_1.csv");
 //    public static final Path LOCATIONS_FILE_2_LOC = LOCATION_FOLDER.resolve("locations_2.csv");
 //    public static final Path LOCATIONS_FILE_3_LOC = LOCATION_FOLDER.resolve("locations_3.csv");

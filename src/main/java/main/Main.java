@@ -52,8 +52,8 @@ public class Main {
         }
         map.object2IntEntrySet()
                 .stream()
-                .limit(100)
                 .sorted((e1, e2) -> Integer.compare(e2.getIntValue(), e1.getIntValue()))
+                .limit(100)
                 .forEach(e -> System.out.println(e.getKey()));
     }
 
