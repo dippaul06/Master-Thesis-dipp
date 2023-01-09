@@ -5,8 +5,8 @@ import java.nio.file.Path;
 public class Config {
 
     static final Path LOCATION_FOLDER = Path.of("/global/D1/projects/umod/dipp/Test/locations");
-    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("frequentplaces40000.txt");
-    public static final Path LOCATIONS_FILE_1_SLV = LOCATION_FOLDER.resolve("frequentplaces40000.txt.resolved");
+    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("coronarvirus6_2020-02-11.jsonstream.xzEN.csv.place");
+    public static final Path LOCATIONS_FILE_1_SLV = LOCATION_FOLDER.resolve("coronarvirus6_2020-02-11.jsonstream.xzEN.csv.place.resolved");
 //    public static final Path LOCATIONS_FILE_1_LOC = LOCATION_FOLDER.resolve("locations_1.csv");
 //    public static final Path LOCATIONS_FILE_2_LOC = LOCATION_FOLDER.resolve("locations_2.csv");
 //    public static final Path LOCATIONS_FILE_3_LOC = LOCATION_FOLDER.resolve("locations_3.csv");
@@ -23,13 +23,13 @@ public class Config {
 //    public static final Path RESULT_FOLDER_REMOTE = Path.of("/global/D1/homes/daniels/ukraine/result");
 //    public static final Path UNRESOLVED_LOCATIONS_FILE = RESULT_FOLDER_REMOTE.resolve("unresolved_locations");
     public static Path DATA_FOLDER = Path.of("/global/D1/projects/umod/dipp/Test/data");
-    public static Path DATA_COMPRESSED_FOLDER_REMOTE = Path.of("/global/D1/projects/umod/dipp/Test/compressed");
+    public static Path DATA_COMPRESSED_FOLDER_REMOTE = Path.of("/global/D1/projects/umod/dipp/Test/compressed_01");
     //public static Path DATA_COMPRESSED_FOLDER_REMOTE = Path.of("/global/D1/homes/daniels/ukraine/compressed/");
     //public static final Path COMPRESSED_DATA_FILE = DATA_FOLDER.resolve("out");
 //    public static final Path UNRESOLVED_LOCATIONS_FILE = LOCATION_FOLDER.resolve("frequentplaces120000.txt");
 //    public static final Path RESOLVED_LOCATIONS_FILE = LOCATION_FOLDER.resolve("frequentplaces120000.txt.resolved");
 
-    public static final Path RESULT_FOLDER_REMOTE = Path.of("/global/D1/projects/umod/dipp/Test/result");
-    public static final Path UNRESOLVED_LOCATIONS_FILE = RESULT_FOLDER_REMOTE.resolve("unresolved_locations");
+    public static final Path RESULT_FOLDER_REMOTE = Path.of("/global/D1/projects/umod/dipp/Test/result_01");
+    public static final Path UNRESOLVED_LOCATIONS_FILE = RESULT_FOLDER_REMOTE.resolve("unresolved_locations_01");
 
 }

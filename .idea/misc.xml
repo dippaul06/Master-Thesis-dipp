@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="azul-16" project-jdk-type="JavaSDK" />
+  <component name="UnattendedHostPersistenceState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1341" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/experiments/Hashtags.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="380" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/experiments/Users.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1081" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Loader.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="759" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Locator.java" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1546" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/src/main/java/model/Model.java" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+</project>
