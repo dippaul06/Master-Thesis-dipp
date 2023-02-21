@@ -1,0 +1,20 @@
+
+['none', 'none', 'none', 'none', 'none']
+united states
+['US', 'United States', None, None, None]
+california, usa
+['US', 'United States', 'CA', 'California', None]
+usa
+['US', 'United States', None, None, None]
+florida, usa
+['US', 'United States', 'FL', 'Florida', None]
+texas, usa
+['US', 'United States', 'TX', 'Texas', None]
+los angeles, ca
+['US', 'United States', 'CA', 'California', 'Los Angeles']
+chicago, il
+['US', 'United States', 'IL', 'Illinois', 'Chicago']
+new york, ny
+['US', 'United States', 'NY', 'New York', 'New York']
+new york, usa
+['US', 'United States', 'NY', 'New York', 'New York']
