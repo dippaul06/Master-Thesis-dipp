@@ -1,9 +1,11 @@
+### DID NOT WORK *******
+
 import pandas as pd
 
 print("############################# START #########################################")
 print("############################# CREATING DATAFRAME ################################################")
 
-df = pd.read_json("/global/D1/projects/umod/dipp/playground/Backup/usersAllDipp.json", lines=True, encoding="utf8")
+df = pd.read_json("/global/D1/projects/umod/dipp/playground/Backup/usersAllDipp.json", lines=True, encoding='utf-8')
 #df = pd.read_json("/home/dipp/Github/Master-Thesis-dipp/USERID/usersAllDipp copy.json", lines=True)
 
 print("############################# DATAFRAME DONE #####################################################")
