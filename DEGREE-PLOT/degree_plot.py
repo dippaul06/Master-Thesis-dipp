@@ -1,32 +1,26 @@
 import pandas as pd
-import csv
-
-print("############################# START #########################################")
-data = []
-cols = ['createdAt', 'followers', 'favourites', 'location', 'userId']
-file_name_01 = "/home/dipp/Github/Master-Thesis-dipp/DEGREE-PLOT/degree_all.csv"
-file_name_01 = "/home/dipp/Github/Master-Thesis-dipp/DEGREE-PLOT/degree_in.csv"
-file_name_01 = "/home/dipp/Github/Master-Thesis-dipp/DEGREE-PLOT/degree_out.csv"
-counts = 0
-
-print("############################# OPENING FILE ################################################")
-
-with open(file_name_01, encoding='utf-8') as f:
-    for line in f:
-        try : 
-            doc = json.loads(line)
-            lst = [doc['createdAt'], doc['followers'], doc['favourites'], doc['location'], doc['userId']]
-            data.append(lst)
-        except (JSONDecodeError, json.JSONDecodeError):
-            counts+=1
-            continue
-
-print("############################# LIST DONE #####################################################")
-print("Skipped: " ,  counts)
-
-print("############################# CREATING DATAFRAME ################################################")
-df = pd.DataFrame(data=data, columns=cols)
-print("############################# DATAFRAME DONE #####################################################")
+import matplotlib.pyplot as plt
 
 
-print("################################## DONE #############################################################")
+print('**********************************START********************************************************')
+#file_path_all = '/global/D1/projects/umod/dipp/playground/result_graph/degree_all.csv'
+#file_path_in = '/global/D1/projects/umod/dipp/playground/result_graph/degree_in.csv'
+file_path_out = '/global/D1/projects/umod/dipp/playground/result_graph/degree_out.csv'
+
+#ds = pd.read_csv(file_path_all)
+#ds = pd.read_csv(file_path_in)
+ds = pd.read_csv(file_path_out)
+print('**********************************DATAFRAME DONE********************************************************')
+
+plt.hist(ds.iloc[:, 1], bins=45)
+plt.yscale('log')
+plt.xlabel('Degree')
+plt.ylabel('Count')
+print('**********************************HIST MADE********************************************************')
+
+#plt.savefig('/home/dipp/Github/Master-Thesis-dipp/RES/degree_all.pdf', format='pdf', papertype='letter')
+#plt.savefig('/home/dipp/Github/Master-Thesis-dipp/RES/degree_in.pdf', format='pdf', papertype='letter')
+plt.savefig('/home/dipp/Github/Master-Thesis-dipp/RES/degree_out.pdf',format='pdf', papertype='letter')
+print('**********************************HIST SAVED********************************************************')
+
+print('**********************************DONE********************************************************')
