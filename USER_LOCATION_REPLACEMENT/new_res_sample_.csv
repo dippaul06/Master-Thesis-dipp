@@ -219,9 +219,9 @@ createdAt,followers,favourites,location,userId
 2020-06-01T04:56:17,17,769,"['ID', 'Indonesia', 'West Java', 'West Java', None]",1267318952176152576
 2010-04-18T06:51:17,257,3421,"['none', 'none', 'none', 'none', 'none']",134373044
 2020-01-04T17:22:11,35,7522,"['none', 'none', 'none', 'none', 'none']",1213510918979538945
-2010-04-18T06:38:34,126,1774,"['US', 'United States', 'CA', 'California', 'San Diego']",134370459
+2010-04-18T06:38:34,126,1774,"['none', 'none', 'none', 'none', 'none']",134370459
 2021-10-09T13:08:09,2,9,"['none', 'none', 'none', 'none', 'none']",1446824696046047239
-2018-05-15T16:16:40,28,132,"['BR', 'Brazil', None, None, None]",996424130059755522
+2018-05-15T16:16:40,28,132,"['none', 'none', 'none', 'none', 'none']",996424130059755522
 2011-03-19T02:55:57,130,318,"['PH', 'Philippines', None, None, None]",268596528
 2019-08-06T12:35:44,207,13742,"['DE', 'Germany', 'HE', 'Hessen', 'WI']",1158718294460903424
 2020-12-16T05:15:20,0,0,"['none', 'none', 'none', 'none', 'none']",1339076534041276416
@@ -435,7 +435,7 @@ createdAt,followers,favourites,location,userId
 2019-08-05T23:22:27,462,1508,"['none', 'none', 'none', 'none', 'none']",1158518657804394496
 2018-03-26T01:53:25,3,3207,"['none', 'none', 'none', 'none', 'none']",978087493840056321
 2011-11-01T21:07:26,137,6,"['none', 'none', 'none', 'none', 'none']",402978865
-2010-04-18T18:31:27,1536,5647,"['GB', 'United Kingdom', 'England', 'England', 'Oxford']",134540013
+2010-04-18T18:31:27,1536,5647,"['none', 'none', 'none', 'none', 'none']",134540013
 2010-04-18T18:34:25,20,1411,"['none', 'none', 'none', 'none', 'none']",134540744
 2013-10-22T01:05:47,407,15972,"['none', 'none', 'none', 'none', 'none']",2147772634
 2016-11-14T02:48:02,359,19615,"['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia']",797994469564026880
@@ -448,7 +448,7 @@ createdAt,followers,favourites,location,userId
 2021-03-21T14:26:47,252,835,"['none', 'none', 'none', 'none', 'none']",1373642187511009285
 2019-01-19T04:58:46,3388,10157,"['US', 'United States', 'NY', 'New York', 'New York']",1086488110769295360
 2020-04-09T12:24:17,19,140,"['none', 'none', 'none', 'none', 'none']",1248225112282877954
-2019-06-16T20:19:17,5,54,"['MX', 'Mexico', 'CDMX', 'Mexico City', 'México D.F.']",1140353171065311235
+2019-06-16T20:19:17,5,54,"['none', 'none', 'none', 'none', 'none']",1140353171065311235
 2020-04-08T14:41:46,1,0,"['none', 'none', 'none', 'none', 'none']",1247897372992004104
 2012-09-05T23:52:57,381,4223,"['none', 'none', 'none', 'none', 'none']",805650168
 2015-05-20T17:17:55,632,14005,"['US', 'United States', 'CA', 'California', None]",3221606844
