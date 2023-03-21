@@ -18,8 +18,10 @@ file1 = open(res_file, "a")  # append mode
 file1.write('i,j,contacts,mentions'+'\n')
 file1.close()
 
+row_count = 0
+
 print("###################################### REPLACING USER ID WITH LOCATION ##########################################################################################")
-with open(user_graph, newline='', encoding='utf-8') as ug:
+with open(user_graph, newline='', encoding='utf-8') as ug, open(res_file, "a") as file1:
     user_graph_data = csv.DictReader((x.replace('\0', '') for x in ug))
     No_of_Line = 0
     some_to_some = 0
@@ -27,6 +29,9 @@ with open(user_graph, newline='', encoding='utf-8') as ug:
     none_to_some = 0
     none_to_none = 0
     no_match = "['none', 'none', 'none', 'none', 'none']"
+
+    row_count = sum(1 for row in user_graph_data)
+    print("No. of Rows: ", row_count)
 
     for line in user_graph_data:
         No_of_Line += 1
@@ -53,10 +58,10 @@ with open(user_graph, newline='', encoding='utf-8') as ug:
         line['i'] = res_s
         line['j'] = res_d
 
-        file1 = open(res_file, "a")  # append mode
+        #file1 = open(res_file, "a")  # append mode
         #file1.write(line['i'] + ','+ line['j']+','+ line['contacts']+ ','+line['mentions']+'\n')
         file1.write('"' + line['i'] + '"' + ',' + '"' + line['j'] + '"' + ',' + line['contacts']+ ',' + line['mentions'] + '\n')
-        file1.close()
+        #file1.close()
         
 
 
