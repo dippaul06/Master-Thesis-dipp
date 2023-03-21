@@ -26,6 +26,7 @@ with open(user_graph, newline='', encoding='utf-8') as ug:
     some_to_none = 0
     none_to_some = 0
     none_to_none = 0
+    no_match = "['none', 'none', 'none', 'none', 'none']"
 
     for line in user_graph_data:
         No_of_Line += 1
@@ -44,16 +45,17 @@ with open(user_graph, newline='', encoding='utf-8') as ug:
                 some_to_some += 1
         
         if(res_s == None):
-            res_s = "['none', 'none', 'none', 'none', 'none']"
+            res_s = no_match
         if(res_d == None):
-            res_d = "['none', 'none', 'none', 'none', 'none']"
+            res_d = no_match
 
 
         line['i'] = res_s
         line['j'] = res_d
 
         file1 = open(res_file, "a")  # append mode
-        file1.write(line['i'] + ','+ line['j']+','+ line['contacts']+ ','+line['mentions']+'\n')
+        #file1.write(line['i'] + ','+ line['j']+','+ line['contacts']+ ','+line['mentions']+'\n')
+        file1.write('"' + line['i'] + '"' + ',' + '"' + line['j'] + '"' + ',' + line['contacts']+ ',' + line['mentions'] + '\n')
         file1.close()
         
 
