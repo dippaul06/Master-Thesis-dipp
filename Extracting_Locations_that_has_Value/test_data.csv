@@ -1,0 +1,500 @@
+i,j,contacts,mentions
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",32,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Los Angeles']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",6,0
+"['US', 'United States', 'DC', 'District of Columbia', 'Washington']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",10,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",44,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', None]",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",28,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",15,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['ES', 'Spain', 'AN', 'Andalusia', 'Cádiz']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"[None, None, None, None, None]","['US', 'United States', 'VA', 'Virginia', 'Chesapeake']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",118,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['CO', 'Colombia', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",23,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CT', 'Connecticut', 'Brookfield']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CO', 'Colorado', 'Denver']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['NA', 'Namibia', 'Khomas Region', 'Khomas Region', 'Windhoek']",1,0
+"['none', 'none', 'none', 'none', 'none']","['DE', 'Germany', 'BY', 'Bavaria', None]",1,0
+"['none', 'none', 'none', 'none', 'none']","[None, None, None, None, None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",28,0
+"['CA', 'Canada', 'ON', 'Ontario', None]","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['CA', 'Canada', 'ON', 'Ontario', None]","['CA', 'Canada', 'QC', 'Québec', 'Québec']",13,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['CA', 'Canada', 'ON', 'Ontario', 'Ottawa']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['MX', 'Mexico', 'CDMX', 'Mexico City', 'México D.F.']",5,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",39,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['HK', 'Hong Kong', None, None, None]",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",23,0
+"['US', 'United States', 'CA', 'California', 'El Segundo']","['RU', 'Russia', 'Sverdlovsk Oblast', 'Sverdlovsk Oblast', 'Yekaterinburg']",19507,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",196,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",32,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Elk Grove']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",23,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",45995446,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",71,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",107,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Los Angeles']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",6,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",19,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",55,0
+"['US', 'United States', 'MN', 'Minnesota', None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'NJ', 'New Jersey', None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",9,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","[None, None, None, None, None]",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",49,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",49,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'DC', 'District of Columbia', 'Washington']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'NC', 'North Carolina', None]",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'CA', 'California', 'Los Angeles']","['US', 'United States', 'CA', 'California', None]",102,0
+"[None, None, None, None, None]","['none', 'none', 'none', 'none', 'none']",75,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",60,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'NY', 'New York', 'New York']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",228,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['JP', 'Japan', 'Tokyo', 'Tokyo', None]",1,0
+"['US', 'United States', 'NY', 'New York', None]","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",28,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'LA', 'Louisiana', 'New Orleans']",12,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",18,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'CA', 'California', 'El Monte']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",159,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",14,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",37,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",52,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",53,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",48,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,1
+"['none', 'none', 'none', 'none', 'none']","[None, None, None, None, None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",10,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",10,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",27,0
+"['US', 'United States', 'CT', 'Connecticut', 'Manchester']","['US', 'United States', 'OH', 'Ohio', 'Columbus']",1,0
+"['US', 'United States', 'MO', 'Missouri', None]","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",308,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['CO', 'Colombia', None, None, None]","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",226,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Sacramento']",45,0
+"['TN', 'Tunisia', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",37,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",21,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['GB', 'United Kingdom', 'England', 'England', None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",80,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['TH', 'Thailand', 'Bangkok', 'Bangkok', 'กทม']","['none', 'none', 'none', 'none', 'none']",179,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",11,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'OH', 'Ohio', 'Cleveland']",1,0
+"['US', 'United States', 'OH', 'Ohio', None]","['US', 'United States', 'OH', 'Ohio', None]",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['US', 'United States', 'CA', 'California', 'Sacramento']",39,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",17,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",11,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'AZ', 'Arizona', 'Chandler']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'WA', 'Washington', 'Olympia']","['none', 'none', 'none', 'none', 'none']",41,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",144,0
+"['US', 'United States', 'OH', 'Ohio', 'Cleveland']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",191,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",28,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['US', 'United States', 'OH', 'Ohio', 'Beachwood']","['none', 'none', 'none', 'none', 'none']",11,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",646,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'VA', 'Virginia', 'Arlington']",6,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",23,0
+"['US', 'United States', 'CA', 'California', 'Los Angeles']","['none', 'none', 'none', 'none', 'none']",1,0
+"['SE', 'Sweden', 'Skåne County', 'Skåne County', 'Malmö']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",84,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'OR', 'Oregon', 'Portland']",30,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['GB', 'United Kingdom', 'England', 'England', 'London']","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', 'DL', 'Delhi', 'New Delhi']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'NY', 'New York', None]",18,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",35,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['US', 'United States', 'MD', 'Maryland', 'Silver Spring']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",26,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",6,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",5,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",32,0
+"['US', 'United States', 'MO', 'Missouri', 'St. Louis']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",483,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",10,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",24,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",99,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'CA', 'California', 'Los Angeles']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",18,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",34,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",211,0
+"['GB', 'United Kingdom', 'England', 'England', 'Newick']","['none', 'none', 'none', 'none', 'none']",47,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",175,0
+"['none', 'none', 'none', 'none', 'none']","['IL', 'Israel', None, None, None]",19,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",513,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",86,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",14,0
+"[None, None, None, None, None]","['none', 'none', 'none', 'none', 'none']",176,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",236,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['MX', 'Mexico', None, None, None]",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['HK', 'Hong Kong', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'DC', 'District of Columbia', 'Washington']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",49,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Costa Mesa']",8,0
+"['GB', 'United Kingdom', 'England', 'England', 'London']","['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur']",29,0
+"['US', 'United States', 'HI', 'Hawaii', None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",33,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",39,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",7,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1422,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",50,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",526,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'PA', 'Pennsylvania', 'Shillington']",2,0
+"['US', 'United States', 'OR', 'Oregon', None]","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",95,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",64,0
+"['IN', 'India', None, None, None]","['IN', 'India', None, None, None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",6,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['GB', 'United Kingdom', 'England', 'England', None]",1,0
+"['IN', 'India', None, None, None]","['IN', 'India', None, None, None]",6,0
+"['US', 'United States', 'AR', 'Arkansas', 'Pea Ridge']","['none', 'none', 'none', 'none', 'none']",101,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",48,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Los Angeles']",21,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",17,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['IN', 'India', None, None, None]",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['KR', 'South Korea', 'Seoul', 'Seoul', None]","['US', 'United States', 'IL', 'Illinois', 'Urbana']",19,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",49,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",74,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1995,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['US', 'United States', 'SD', 'South Dakota', 'Sioux Falls']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",316,0
+"['US', 'United States', 'FL', 'Florida', 'Miami']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",12,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",506,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",54,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","[None, None, None, None, None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'TN', 'Tennessee', 'Pigeon Forge']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",26,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels']","['US', 'United States', 'CA', 'California', 'Sunnyvale']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",9,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",9,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",24,0
+"['VE', 'Venezuela', 'Dto. Capital', 'Capital District', 'CCS']","['none', 'none', 'none', 'none', 'none']",530,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",50,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",37,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",7,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'CA', 'California', 'Goleta']",1,0
+"['US', 'United States', 'CA', 'California', 'Goleta']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",28,0
+"['none', 'none', 'none', 'none', 'none']","['KE', 'Kenya', None, None, None]",1175,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['ES', 'Spain', 'CN', 'Canary Islands', None]","['ES', 'Spain', 'CN', 'Canary Islands', 'Santa Cruz de Tenerife']",3,0
+"['US', 'United States', 'NY', 'New York', 'New York']","['none', 'none', 'none', 'none', 'none']",29,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",970,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",74,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",8,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'MD', 'Maryland', 'Baltimore']",9,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",11,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",977,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",15,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",7,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",207,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",6,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney']","['AU', 'Australia', 'VIC', 'Victoria', 'Bendigo']",197,0
+"['US', 'United States', None, None, None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",18,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",58,0
+"['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",76,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",17,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'NJ', 'New Jersey', 'Newark']",5,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",4,0
+"['US', 'United States', 'FL', 'Florida', 'Fort Lauderdale']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",45,0
+"['IN', 'India', 'KA', 'Karnataka', 'Bengaluru']","['IN', 'India', None, None, None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",7,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","[None, None, None, None, None]",1,0
+"['US', 'United States', 'CA', 'California', 'Los Angeles']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",32,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",20,0
+"['IN', 'India', None, None, None]","['none', 'none', 'none', 'none', 'none']",35,0
+"['none', 'none', 'none', 'none', 'none']","['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul']",2,0
+"['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul']","['none', 'none', 'none', 'none', 'none']",1,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",21,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1903,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['GB', 'United Kingdom', 'Scotland', 'Scotland', None]","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['GB', 'United Kingdom', 'England', 'England', None]",3,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['NL', 'Netherlands', 'ZH', 'South Holland', None]",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",2,0
+"['none', 'none', 'none', 'none', 'none']","['US', 'United States', 'TX', 'Texas', 'Dallas']",4,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",1,0
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",0,1
+"['none', 'none', 'none', 'none', 'none']","['none', 'none', 'none', 'none', 'none']",69,0

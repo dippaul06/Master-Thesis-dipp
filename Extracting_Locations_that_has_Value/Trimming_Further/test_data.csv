@@ -1,0 +1,10 @@
+i,j,count
+['CA', 'Canada', 'ON', 'Ontario', None],['CA', 'Canada', 'QC', 'Québec', 'Québec'],25
+['US', 'United States', 'CA', 'California', 'El Segundo'],['RU', 'Russia', 'Sverdlovsk Oblast', 'Sverdlovsk Oblast', 'Yekaterinburg'],8
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'CA', 'California', None],79315
+['US', 'United States', 'CT', 'Connecticut', 'Manchester'],['US', 'United States', 'OH', 'Ohio', 'Columbus'],2
+['US', 'United States', 'OH', 'Ohio', None],['US', 'United States', 'OH', 'Ohio', None],8854
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Sacramento'],3442
+['GB', 'United Kingdom', 'England', 'England', 'London'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],3668
+['IN', 'India', None, None, None],['IN', 'India', None, None, None],921323
+['KR', 'South Korea', 'Seoul', 'Seoul', None],['US', 'United States', 'IL', 'Illinois', 'Urbana'],11128

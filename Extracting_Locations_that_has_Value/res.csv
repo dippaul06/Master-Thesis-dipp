@@ -1,0 +1,15 @@
+i,j,count
+['CA', 'Canada', 'ON', 'Ontario', None],['CA', 'Canada', 'QC', 'Québec', 'Québec'],1
+['US', 'United States', 'CA', 'California', 'El Segundo'],['RU', 'Russia', 'Sverdlovsk Oblast', 'Sverdlovsk Oblast', 'Yekaterinburg'],1
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'CA', 'California', None],1
+['US', 'United States', 'CT', 'Connecticut', 'Manchester'],['US', 'United States', 'OH', 'Ohio', 'Columbus'],1
+['US', 'United States', 'OH', 'Ohio', None],['US', 'United States', 'OH', 'Ohio', None],1
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Sacramento'],1
+['GB', 'United Kingdom', 'England', 'England', 'London'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],1
+['IN', 'India', None, None, None],['IN', 'India', None, None, None],2
+['KR', 'South Korea', 'Seoul', 'Seoul', None],['US', 'United States', 'IL', 'Illinois', 'Urbana'],1
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'SD', 'South Dakota', 'Sioux Falls'],1
+['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels'],['US', 'United States', 'CA', 'California', 'Sunnyvale'],1
+['ES', 'Spain', 'CN', 'Canary Islands', None],['ES', 'Spain', 'CN', 'Canary Islands', 'Santa Cruz de Tenerife'],1
+['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],['AU', 'Australia', 'VIC', 'Victoria', 'Bendigo'],1
+['IN', 'India', 'KA', 'Karnataka', 'Bengaluru'],['IN', 'India', None, None, None],1
