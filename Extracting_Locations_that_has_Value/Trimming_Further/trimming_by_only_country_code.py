@@ -1,7 +1,7 @@
 import csv
 import sys
 
-#csv.field_size_limit(sys.maxsize)
+csv.field_size_limit(sys.maxsize)
 
 loc_data = '/global/D1/projects/umod/dipp/playground/Location_to_Location_User_ID/results_locations_with_count.csv'
 res_Data = '/global/D1/projects/umod/dipp/playground/Location_to_Location_User_ID/Location_with_only_country_code.csv'
@@ -21,32 +21,31 @@ with open(loc_data, newline='', encoding='utf-8') as fd:
     
     for line in base_location_data:
         try:
-            try:
-                while(line != None):
-                    a = line['i'].split()
-                    b = line['j'].split()
-                    if(a != None and b != None):
-                        c = a[0].replace('[','')
-                        d = b[0].replace(',[','')
+            
+                
+            a = line['i'].split()
+            b = line['j'].split()
+            if(a != None and b != None):
+                c = a[0].replace('[','')
+                d = b[0].replace(',[','')
 
-                        source_country = c.replace(',','')
-                        dest_country = d.replace(',','')
-                        count = float(line['count'].replace(',',''))
-
+                source_country = c.replace(',','')
+                dest_country = d.replace(',','')
+                count = float(line['count'].replace(',',''))
                         
-                        temp_data = source_country+','+dest_country
+                temp_data = source_country+','+dest_country
                             
 
-                        d = res_dict.get(temp_data)
+                d = res_dict.get(temp_data)
                         
-                        if(d == None):
-                            res_dict[temp_data] = int(count)
-                        else:
-                            res_dict[temp_data] = int(count) + int(d)
-            except Exception as e: 
-                print(e)
+                if(d == None):
+                    res_dict[temp_data] = int(count)
+                else:
+                    res_dict[temp_data] = int(count) + int(d)
+            
+           
     
-        except(AttributeError):
+        except:
             No_of_None += 1
             continue
 
