@@ -4,7 +4,7 @@ import csv
 
 print("################# START ######################")
 
-Full_Location_Data = '/global/D1/projects/umod/dipp/playground/Location_to_Location_User_ID/results_loc_to_loc_from_user_to_user.csv'
+Full_Location_Data = '/global/D1/projects/umod/dipp/playground/Location_to_Location_User_ID/results_locations_with_count_V2_Latest.csv'
 Res_Data = '/global/D1/projects/umod/dipp/playground/Location_to_Location_User_ID/results_locations_with_count_V2_Latest.csv'
 
 

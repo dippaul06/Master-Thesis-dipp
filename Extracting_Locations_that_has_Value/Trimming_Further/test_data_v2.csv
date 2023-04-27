@@ -1,0 +1,500 @@
+i,j,count
+['CA', 'Canada', 'ON', 'Ontario', None],['CA', 'Canada', 'QC', 'Québec', 'Québec'],47
+['US', 'United States', 'CA', 'California', 'El Segundo'],['RU', 'Russia', 'Sverdlovsk Oblast', 'Sverdlovsk Oblast', 'Yekaterinburg'],19579
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'CA', 'California', None],126208
+['US', 'United States', 'CT', 'Connecticut', 'Manchester'],['US', 'United States', 'OH', 'Ohio', 'Columbus'],2
+['US', 'United States', 'OH', 'Ohio', None],['US', 'United States', 'OH', 'Ohio', None],37724
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Sacramento'],9436
+['GB', 'United Kingdom', 'England', 'England', 'London'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],4777
+['IN', 'India', None, None, None],['IN', 'India', None, None, None],2784768
+['KR', 'South Korea', 'Seoul', 'Seoul', None],['US', 'United States', 'IL', 'Illinois', 'Urbana'],30442
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'SD', 'South Dakota', 'Sioux Falls'],7118
+['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels'],['US', 'United States', 'CA', 'California', 'Sunnyvale'],25
+['ES', 'Spain', 'CN', 'Canary Islands', None],['ES', 'Spain', 'CN', 'Canary Islands', 'Santa Cruz de Tenerife'],3142
+['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],['AU', 'Australia', 'VIC', 'Victoria', 'Bendigo'],2356
+['IN', 'India', 'KA', 'Karnataka', 'Bengaluru'],['IN', 'India', None, None, None],51624
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Orange'],2559
+['MX', 'Mexico', 'Qro.', 'Querétaro', None],['MX', 'Mexico', 'Qro.', 'Querétaro', None],1071
+['IN', 'India', None, None, None],['IN', 'India', 'KA', 'Karnataka', 'Bengaluru'],208958
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'CA', 'California', None],58564
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'TX', 'Texas', 'San Antonio'],1804
+['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels'],['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels'],42699
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OH', 'Ohio', 'Fairlawn'],100
+['GB', 'United Kingdom', 'Northern Ireland', 'Northern Ireland', None],['MX', 'Mexico', 'B.C.', 'Baja California', 'Mexicali'],264
+['US', 'United States', 'KS', 'Kansas', 'Independence'],['DE', 'Germany', None, None, None],140
+['IT', 'Italy', 'Lombardy', 'Lombardy', 'Monza'],['IT', 'Italy', 'Lombardy', 'Lombardy', 'Milan'],84
+['US', 'United States', None, None, None],['IT', 'Italy', None, None, None],597
+['AR', 'Argentina', 'Chubut Province', 'Chubut Province', 'Trelew'],['AR', 'Argentina', 'Chubut Province', 'Chubut Province', 'Trelew'],2979
+['US', 'United States', 'MO', 'Missouri', 'St. Louis'],['US', 'United States', 'MO', 'Missouri', 'St. Louis'],56411
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'KY', 'Kentucky', 'Covington'],36
+['US', 'United States', 'SC', 'South Carolina', None],['PA', 'Panama', None, None, None],63
+['IN', 'India', None, None, None],['IN', 'India', 'MH', 'Maharashtra', 'Mumbai'],66512
+['US', 'United States', 'NJ', 'New Jersey', 'Newark'],['US', 'United States', 'SC', 'South Carolina', 'Pawleys Island'],30
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'FL', 'Florida', None],329107
+['US', 'United States', 'GA', 'Georgia', None],['US', 'United States', 'GA', 'Georgia', 'East Point'],45
+['US', 'United States', 'TX', 'Texas', 'El Paso'],['US', 'United States', 'TX', 'Texas', 'El Paso'],32386
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', None, None, None],196077
+['DE', 'Germany', 'NRW', 'North Rhine-Westphalia', None],['DE', 'Germany', 'NRW', 'North Rhine-Westphalia', None],21881
+['US', 'United States', 'RI', 'Rhode Island', 'Providence'],['US', 'United States', 'RI', 'Rhode Island', 'Providence'],25602
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MT', 'Montana', 'Helena'],2080
+['GB', 'United Kingdom', 'England', 'England', 'Liverpool'],['GB', 'United Kingdom', 'England', 'England', None],798
+['US', 'United States', 'CO', 'Colorado', None],['HK', 'Hong Kong', None, None, None],3377
+['GB', 'United Kingdom', 'Scotland', 'Scotland', None],['GB', 'United Kingdom', 'Scotland', 'Scotland', None],202106
+['US', 'United States', 'NY', 'New York', 'Rochester'],['US', 'United States', 'NY', 'New York', 'Rochester'],30025
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'NY', 'New York', 'New York'],721248
+['US', 'United States', 'VA', 'Virginia', 'Madison'],['US', 'United States', 'AL', 'Alabama', 'Birmingham'],136
+['US', 'United States', 'UT', 'Utah', 'Sandy'],['US', 'United States', 'NY', 'New York', None],7
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'NY', 'New York', 'Lakewood'],163
+['US', 'United States', 'NY', 'New York', 'New York'],['TH', 'Thailand', 'Bangkok', 'Bangkok', 'กทม'],3789
+['US', 'United States', 'NY', 'New York', 'New York'],['CA', 'Canada', 'ON', 'Ontario', 'Milton'],2282
+['US', 'United States', 'MI', 'Michigan', None],['US', 'United States', 'TX', 'Texas', None],4957
+['PH', 'Philippines', 'Northern Mindanao', 'Northern Mindanao', 'CDO'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],253
+['CU', 'Cuba', None, None, None],['IN', 'India', 'KL', 'Kerala', None],4609
+['US', 'United States', 'AZ', 'Arizona', 'Scottsdale'],['US', 'United States', 'NY', 'New York', None],469
+['US', 'United States', 'NC', 'North Carolina', None],['GB', 'United Kingdom', 'Scotland', 'Scotland', None],131
+['US', 'United States', 'CO', 'Colorado', 'Denver'],['US', 'United States', 'FL', 'Florida', None],7224
+['PH', 'Philippines', 'NCR', 'Metro Manila', None],['PH', 'Philippines', 'NCR', 'Metro Manila', None],6461
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'Ilford'],605
+['US', 'United States', 'IL', 'Illinois', 'Chicago'],['US', 'United States', 'IL', 'Illinois', 'Chicago'],109614
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MA', 'Massachusetts', 'Boston'],21540
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'DC', 'District of Columbia', 'Washington'],87770
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'VA', 'Virginia', 'Bluemont'],18
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],1775
+['JP', 'Japan', 'Tokyo', 'Tokyo', None],['JP', 'Japan', 'Tokyo', 'Tokyo', 'Shinjuku City'],201
+['IT', 'Italy', 'Lazio', 'Lazio', 'Roma'],['IT', 'Italy', 'Lombardy', 'Lombardy', 'Milan'],6718
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'FL', 'Florida', None],161558
+['US', 'United States', 'IL', 'Illinois', 'Chicago'],['US', 'United States', 'TX', 'Texas', 'Schertz'],19
+['US', 'United States', 'SC', 'South Carolina', None],['US', 'United States', 'AZ', 'Arizona', 'Tucson'],559
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CO', 'Colorado', None],49091
+['VE', 'Venezuela', 'Dto. Capital', 'Capital District', 'CCS'],['VE', 'Venezuela', 'Dto. Capital', 'Capital District', 'CCS'],34637
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AL', 'Alabama', None],13397
+['IN', 'India', None, None, None],['US', 'United States', 'KS', 'Kansas', 'Independence'],75018
+['US', 'United States', 'MN', 'Minnesota', None],['US', 'United States', 'ND', 'North Dakota', 'Fargo'],32
+['US', 'United States', 'OK', 'Oklahoma', 'Tulsa'],['US', 'United States', 'OK', 'Oklahoma', 'Tulsa'],15941
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'KS', 'Kansas', 'Independence'],20212
+['IN', 'India', None, None, None],['IN', 'India', 'JH', 'Jharkhand', 'Bokaro Steel City'],3539
+['US', 'United States', 'VT', 'Vermont', 'Montgomery'],['US', 'United States', 'CA', 'California', 'Los Angeles'],546
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AZ', 'Arizona', 'Prescott'],2962
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'CA', 'California', 'Oceanside'],206
+['US', 'United States', 'GA', 'Georgia', 'Gainesville'],['US', 'United States', 'CA', 'California', None],1499
+['GB', 'United Kingdom', 'England', 'England', 'Doncaster'],['US', 'United States', 'IL', 'Illinois', 'Urbana'],3891
+['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul'],['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul'],154451
+['US', 'United States', 'NY', 'New York', 'Cold Spring'],['US', 'United States', 'TX', 'Texas', 'Pflugerville'],3
+['GR', 'Greece', None, None, None],['GR', 'Greece', None, None, 'Athens'],1263
+['US', 'United States', 'MO', 'Missouri', None],['US', 'United States', 'TX', 'Texas', 'Fort Worth'],593
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'NY', 'New York', None],6182
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'Farnham'],796
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'London'],631951
+['AG', 'Antigua and Barbuda', None, None, None],['AG', 'Antigua and Barbuda', None, None, None],2081
+['US', 'United States', 'CA', 'California', 'Napa'],['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],117
+['US', 'United States', 'PA', 'Pennsylvania', 'Plymouth Meeting'],['US', 'United States', 'TX', 'Texas', 'Arlington'],1
+['ZA', 'South Africa', 'GP', 'Gauteng', 'Randburg'],['ZA', 'South Africa', None, None, None],1364
+['US', 'United States', 'VT', 'Vermont', None],['US', 'United States', 'CA', 'California', None],23333
+['IN', 'India', None, None, None],['IN', 'India', 'TN', 'Tamil Nadu', 'Dindigul'],1243
+['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],['US', 'United States', 'NC', 'North Carolina', 'Salisbury'],22
+['IN', 'India', None, None, None],['US', 'United States', 'CA', 'California', 'Sunnyvale'],140658
+['IN', 'India', None, None, None],['IN', 'India', 'TN', 'Tamil Nadu', 'Mayiladuthurai'],222
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', None, None, None],14610
+['US', 'United States', 'AL', 'Alabama', 'Birmingham'],['US', 'United States', 'IL', 'Illinois', 'Urbana'],665
+['US', 'United States', 'ME', 'Maine', None],['US', 'United States', 'ME', 'Maine', None],12566
+['US', 'United States', 'VA', 'Virginia', None],['US', 'United States', 'IN', 'Indiana', 'Terre Haute'],1
+['US', 'United States', 'OK', 'Oklahoma', 'Tulsa'],['CA', 'Canada', 'ON', 'Ontario', None],107
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'NJ', 'New Jersey', None],9772
+['DE', 'Germany', 'BB', 'Brandenburg', 'P'],['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],372
+['US', 'United States', 'NC', 'North Carolina', 'Statesville'],['US', 'United States', 'NC', 'North Carolina', 'Statesville'],578
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'GA', 'Georgia', None],24144
+['US', 'United States', 'VT', 'Vermont', None],['US', 'United States', 'IL', 'Illinois', 'Chicago'],5479
+['US', 'United States', 'FL', 'Florida', 'Auburndale'],['US', 'United States', None, None, None],39
+['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],['DE', 'Germany', None, None, None],4128
+['US', 'United States', 'NC', 'North Carolina', None],['US', 'United States', 'NH', 'New Hampshire', None],292
+['MC', 'Monaco', None, None, None],['MC', 'Monaco', None, None, None],5873
+['US', 'United States', 'MS', 'Mississippi', None],['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],1854
+['US', 'United States', 'VT', 'Vermont', None],['US', 'United States', 'AZ', 'Arizona', 'Tucson'],1331
+['US', 'United States', None, None, None],['IT', 'Italy', 'Lombardy', 'Lombardy', 'Milan'],155
+['US', 'United States', 'TX', 'Texas', None],['US', 'United States', 'SC', 'South Carolina', None],1357
+['GB', 'United Kingdom', 'Wales', 'Wales', None],['GB', 'United Kingdom', 'Wales', 'Wales', 'Swansea'],2655
+['US', 'United States', 'TN', 'Tennessee', None],['US', 'United States', 'CA', 'California', None],11482
+['IT', 'Italy', None, None, None],['IT', 'Italy', 'Veneto', 'Veneto', None],1183
+['LB', 'Lebanon', None, None, None],['GB', 'United Kingdom', 'England', 'England', 'Royal Leamington Spa'],2
+['US', 'United States', 'MA', 'Massachusetts', 'Cambridge'],['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],1583
+['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],['PL', 'Poland', 'Pomeranian Voivodeship', 'Pomeranian Voivodeship', 'Gdańsk'],8
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'IL', 'Illinois', 'Chicago'],117406
+['GB', 'United Kingdom', 'England', 'England', None],['GB', 'United Kingdom', 'England', 'England', None],300082
+['US', 'United States', 'TN', 'Tennessee', 'Memphis'],['US', 'United States', 'TN', 'Tennessee', 'Memphis'],58331
+['US', 'United States', 'TX', 'Texas', 'Houston'],['US', 'United States', 'CA', 'California', 'Berkeley'],730
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],133754
+['GB', 'United Kingdom', 'England', 'England', 'Middlesbrough'],['GB', 'United Kingdom', 'England', 'England', 'London'],615
+['MX', 'Mexico', None, None, None],['CO', 'Colombia', None, None, None],101
+['US', 'United States', 'TX', 'Texas', 'El Paso'],['US', 'United States', 'NY', 'New York', 'Grand Island'],9
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CO', 'Colorado', 'Colorado Springs'],4168
+['US', 'United States', 'GA', 'Georgia', 'Dunwoody'],['US', 'United States', 'AZ', 'Arizona', 'Flagstaff'],2
+['TH', 'Thailand', None, None, None],['TH', 'Thailand', 'Bangkok', 'Bangkok', 'กทม'],16155
+['ZA', 'South Africa', None, None, None],['ZA', 'South Africa', None, None, None],371435
+['IN', 'India', 'KA', 'Karnataka', 'Bengaluru'],['IN', 'India', 'KA', 'Karnataka', 'Bengaluru'],46958
+['AU', 'Australia', 'VIC', 'Victoria', 'Melbourne'],['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],23595
+['GB', 'United Kingdom', 'England', 'England', None],['US', 'United States', 'WI', 'Wisconsin', 'Sussex'],2541
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'TX', 'Texas', 'Tyler'],118
+['US', 'United States', 'TX', 'Texas', 'Dallas'],['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],7713
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'WA', 'Washington', 'Snohomish'],446
+['US', 'United States', 'OH', 'Ohio', None],['US', 'United States', 'WI', 'Wisconsin', 'Milwaukee'],80
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'CA', 'California', None],29365
+['US', 'United States', 'NY', 'New York', 'New York'],['IT', 'Italy', 'Piedmont', 'Piedmont', None],1265
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'CA', 'California', 'Simi Valley'],282
+['US', 'United States', 'CA', 'California', 'El Segundo'],['US', 'United States', 'CA', 'California', None],34600
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'Exeter'],3126
+['US', 'United States', 'TX', 'Texas', 'Dallas'],['US', 'United States', 'TX', 'Texas', 'Dallas'],153613
+['US', 'United States', 'TX', 'Texas', None],['US', 'United States', 'AZ', 'Arizona', None],9040
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'TX', 'Texas', None],141409
+['PA', 'Panama', None, None, None],['PA', 'Panama', None, None, None],47971
+['DE', 'Germany', 'BW', 'Baden-Württemberg', 'MA'],['DE', 'Germany', 'BB', 'Brandenburg', None],16
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['CA', 'Canada', 'NS', 'Nova Scotia', 'Pleasant Valley'],6
+['US', 'United States', 'NC', 'North Carolina', None],['US', 'United States', 'NC', 'North Carolina', None],24821
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OH', 'Ohio', None],65101
+['DE', 'Germany', 'NRW', 'North Rhine-Westphalia', 'Cologne'],['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],5327
+['US', 'United States', 'KS', 'Kansas', 'Coffeyville'],['US', 'United States', 'KS', 'Kansas', 'Independence'],5085
+['TH', 'Thailand', None, None, None],['TH', 'Thailand', None, None, None],31072
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'FL', 'Florida', None],81494
+['US', 'United States', 'NY', 'New York', 'New York'],['ZA', 'South Africa', 'GP', 'Gauteng', 'Sandton'],164
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['GB', 'United Kingdom', 'England', 'England', 'London'],13549
+['US', 'United States', None, None, None],['US', 'United States', 'CA', 'California', None],52879
+['US', 'United States', 'NC', 'North Carolina', None],['US', 'United States', 'CT', 'Connecticut', None],387
+['US', 'United States', None, None, None],['US', 'United States', 'GA', 'Georgia', None],11063
+['KE', 'Kenya', None, None, None],['KE', 'Kenya', None, None, None],102203
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'OH', 'Ohio', None],4210
+['AU', 'Australia', 'VIC', 'Victoria', 'Melbourne'],['AU', 'Australia', 'VIC', 'Victoria', 'Melbourne'],39123
+['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul'],1021
+['US', 'United States', 'VA', 'Virginia', 'Arlington'],['US', 'United States', 'VA', 'Virginia', 'Arlington'],21328
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'WV', 'West Virginia', None],3578
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'Manchester'],24792
+['GB', 'United Kingdom', 'England', 'England', 'Chester'],['GB', 'United Kingdom', 'England', 'England', 'Chester'],3095
+['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],426724
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'VA', 'Virginia', 'Arlington'],4478
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'KS', 'Kansas', 'Independence'],10072
+['US', 'United States', None, None, None],['US', 'United States', 'MS', 'Mississippi', 'Corinth'],31
+['GB', 'United Kingdom', 'England', 'England', 'Solihull'],['US', 'United States', 'AL', 'Alabama', 'Birmingham'],410
+['US', 'United States', 'KS', 'Kansas', 'Independence'],['AT', 'Austria', 'Vienna', 'Vienna', 'Vienna'],211
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', None],204549
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'England', 'England', 'Matlock'],2912
+['US', 'United States', 'KY', 'Kentucky', None],['US', 'United States', 'TX', 'Texas', 'Flower Mound'],3
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'WI', 'Wisconsin', 'Appleton'],480
+['US', 'United States', 'NJ', 'New Jersey', None],['US', 'United States', 'MA', 'Massachusetts', 'Swampscott'],3
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AL', 'Alabama', 'Huntsville'],1362
+['US', 'United States', 'NY', 'New York', 'New York'],['CA', 'Canada', 'BC', 'British Columbia', 'North Vancouver'],2180
+['US', 'United States', 'GA', 'Georgia', 'Gainesville'],['US', 'United States', 'WV', 'West Virginia', None],106
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'ID', 'Idaho', None],824
+['GB', 'United Kingdom', 'England', 'England', 'Cambridge'],['US', 'United States', 'LA', 'Louisiana', 'Lafayette'],9
+['US', 'United States', 'CO', 'Colorado', 'Denver'],['US', 'United States', 'CA', 'California', None],15832
+['US', 'United States', 'FL', 'Florida', 'Coral Gables'],['US', 'United States', 'CA', 'California', 'SF'],401
+['IN', 'India', None, None, None],['SA', 'Saudi Arabia', 'Riyadh Province', 'Riyadh Province', 'Riyadh'],3634
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'NC', 'North Carolina', 'Wendell'],32
+['CO', 'Colombia', None, None, None],['CO', 'Colombia', None, None, None],314152
+['SA', 'Saudi Arabia', None, None, None],['SA', 'Saudi Arabia', None, None, None],25247
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', None, None, None],12951
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'MI', 'Michigan', None],16707
+['CA', 'Canada', 'AB', 'Alberta', 'Calgary'],['CA', 'Canada', 'AB', 'Alberta', 'Cold Lake'],82
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'CA', 'California', None],310444
+['CO', 'Colombia', None, None, None],['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],354687
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'AR', 'Arkansas', 'Fayetteville'],179
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AZ', 'Arizona', None],97970
+['RU', 'Russia', None, None, 'Moscow'],['CA', 'Canada', 'ON', 'Ontario', 'Toronto'],253
+['GB', 'United Kingdom', 'England', 'England', 'London'],['GB', 'United Kingdom', 'Wales', 'Wales', None],15470
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MD', 'Maryland', 'Silver Spring'],6464
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'MI', 'Michigan', 'South Lyon'],308
+['US', 'United States', 'VA', 'Virginia', 'Fairfax Station'],['US', 'United States', 'WV', 'West Virginia', None],35
+['CU', 'Cuba', None, None, None],['CU', 'Cuba', None, None, None],447865
+['ZA', 'South Africa', None, None, None],['DE', 'Germany', 'SN', 'Sachsen', 'Dresden'],140
+['US', 'United States', 'MI', 'Michigan', None],['IN', 'India', 'AP', 'Andhra Pradesh', 'GNT'],19
+['US', 'United States', 'CA', 'California', 'Palo Alto'],['US', 'United States', 'DC', 'District of Columbia', 'Washington'],662
+['US', 'United States', 'MS', 'Mississippi', None],['GB', 'United Kingdom', 'England', 'England', 'London'],2600
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'PA', 'Pennsylvania', None],67687
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'SC', 'South Carolina', None],15183
+['US', 'United States', 'TX', 'Texas', 'Houston'],['US', 'United States', 'NY', 'New York', None],2125
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'GA', 'Georgia', 'Atlanta'],4228
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'OK', 'Oklahoma', 'Erick'],19
+['NL', 'Netherlands', 'UT', 'Utrecht', 'Utrecht'],['NL', 'Netherlands', 'GR', 'Groningen', 'Groningen'],118
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'IA', 'Iowa', None],32208
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'MI', 'Michigan', None],30766
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AZ', 'Arizona', 'Phoenix'],19900
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'UT', 'Utah', 'Salt Lake City'],665
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'CA', 'California', None],61595
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'NY', 'New York', 'Rochester'],1185
+['AU', 'Australia', 'QLD', 'Queensland', 'Brisbane'],['AU', 'Australia', 'WA', 'Western Australia', 'Perth'],621
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'KS', 'Kansas', 'Independence'],14477
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'KS', 'Kansas', 'Independence'],11991
+['US', 'United States', 'MO', 'Missouri', None],['US', 'United States', 'FL', 'Florida', None],7576
+['GB', 'United Kingdom', 'England', 'England', None],['GB', 'United Kingdom', 'England', 'England', 'Radstock'],376
+['US', 'United States', 'FL', 'Florida', 'Sunny Isles Beach'],['US', 'United States', 'FL', 'Florida', 'Fort Lauderdale'],4
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'FL', 'Florida', None],7398
+['US', 'United States', 'CO', 'Colorado', 'Denver'],['US', 'United States', 'CO', 'Colorado', 'Denver'],88657
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'WA', 'Washington', 'Edmonds'],1023
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Simi Valley'],1647
+['US', 'United States', 'HI', 'Hawaii', None],['US', 'United States', 'NV', 'Nevada', 'Reno'],56
+['US', 'United States', 'IN', 'Indiana', 'Hammond'],['US', 'United States', 'IN', 'Indiana', 'Hammond'],4450
+['GB', 'United Kingdom', 'England', 'England', None],['FR', 'France', 'Occitanie', 'Occitanie', None],579
+['CA', 'Canada', 'BC', 'British Columbia', 'Nanaimo'],['CA', 'Canada', 'BC', 'British Columbia', 'Nanaimo'],2375
+['US', 'United States', 'NY', 'New York', 'Cold Spring'],['US', 'United States', 'IL', 'Illinois', 'Chicago'],249
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'ME', 'Maine', 'Indian Twp'],15
+['US', 'United States', 'NY', 'New York', 'New York'],['KE', 'Kenya', None, None, None],11282
+['US', 'United States', 'NY', 'New York', 'New York'],['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul'],5522
+['PK', 'Pakistan', 'Punjab', 'Punjab', 'Lahore'],['PK', 'Pakistan', 'Punjab', 'Punjab', 'Lahore'],11864
+['TR', 'Turkey', 'Eskişehir', 'Eskişehir', 'Eskişehir'],['TR', 'Turkey', 'İstanbul', 'İstanbul', 'İstanbul'],1801
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'FL', 'Florida', 'Miami Springs'],52
+['US', 'United States', 'AZ', 'Arizona', 'Phoenix'],['US', 'United States', 'MA', 'Massachusetts', None],207
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'TX', 'Texas', 'Dallas'],16009
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'IA', 'Iowa', None],3418
+['US', 'United States', 'MN', 'Minnesota', None],['US', 'United States', 'MD', 'Maryland', 'Stevensville'],7
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'OR', 'Oregon', 'Franklin'],635
+['GB', 'United Kingdom', 'England', 'England', None],['GB', 'United Kingdom', 'England', 'England', 'London'],142023
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],15066
+['US', 'United States', 'MA', 'Massachusetts', None],['US', 'United States', 'TX', 'Texas', 'Gainesville'],6
+['US', 'United States', 'FL', 'Florida', 'St. Petersburg'],['US', 'United States', 'RI', 'Rhode Island', 'Providence'],44
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'FL', 'Florida', 'Dunedin'],858
+['CA', 'Canada', 'BC', 'British Columbia', 'Vancouver'],['CA', 'Canada', 'BC', 'British Columbia', 'Vancouver'],44261
+['JP', 'Japan', 'Tokyo', 'Tokyo', 'Tokyo'],['JP', 'Japan', 'Aichi', 'Aichi', 'Nagoya'],535
+['US', 'United States', 'MS', 'Mississippi', None],['US', 'United States', 'NV', 'Nevada', 'North Las Vegas'],75
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'ME', 'Maine', None],15571
+['US', 'United States', 'TX', 'Texas', 'Plano'],['US', 'United States', 'TX', 'Texas', 'Plano'],1934
+['US', 'United States', 'NJ', 'New Jersey', 'Chester'],['US', 'United States', 'CA', 'California', 'City of Industry'],19
+['US', 'United States', 'PA', 'Pennsylvania', 'Harrisburg'],['AU', 'Australia', 'ACT', 'Australian Capital Territory', None],1
+['US', 'United States', 'FL', 'Florida', 'Pinellas Park'],['US', 'United States', 'CA', 'California', 'Temecula'],65
+['IT', 'Italy', 'Lombardy', 'Lombardy', 'Milan'],['IT', 'Italy', 'Tuscany', 'Tuscany', 'Florence'],1628
+['US', 'United States', 'KS', 'Kansas', 'Coffeyville'],['US', 'United States', 'MO', 'Missouri', 'KCMO'],492
+['ZA', 'South Africa', None, None, None],['ZA', 'South Africa', 'GP', 'Gauteng', 'Johannesburg'],66621
+['US', 'United States', 'IL', 'Illinois', 'Chicago'],['US', 'United States', 'KY', 'Kentucky', None],2168
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'NY', 'New York', 'New York'],30084
+['US', 'United States', 'OH', 'Ohio', 'Cleveland'],['US', 'United States', 'OH', 'Ohio', 'Cleveland'],49097
+['US', 'United States', 'FL', 'Florida', 'River Ranch'],['CA', 'Canada', 'ON', 'Ontario', 'Toronto'],4
+['IN', 'India', None, None, None],['IN', 'India', 'DL', 'Delhi', None],23757
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],269192
+['US', 'United States', 'PA', 'Pennsylvania', 'State College'],['US', 'United States', 'PA', 'Pennsylvania', 'State College'],1122
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'PA', 'Pennsylvania', 'Pittsburgh'],56709
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],9381
+['CA', 'Canada', 'AB', 'Alberta', 'Calgary'],['CA', 'Canada', 'ON', 'Ontario', 'Ottawa'],4437
+['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],['CO', 'Colombia', None, None, None],216815
+['TH', 'Thailand', 'Bangkok', 'Bangkok', 'กทม'],['US', 'United States', 'KS', 'Kansas', 'Independence'],530
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OR', 'Oregon', None],35286
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'FL', 'Florida', 'North Redington Beach'],170
+['US', 'United States', 'WV', 'West Virginia', 'Charleston'],['US', 'United States', 'WV', 'West Virginia', None],9675
+['US', 'United States', 'AZ', 'Arizona', None],['US', 'United States', 'AZ', 'Arizona', None],64500
+['US', 'United States', 'MI', 'Michigan', 'Detroit'],['IT', 'Italy', 'Piedmont', 'Piedmont', 'None'],8
+['US', 'United States', 'TX', 'Texas', 'Dallas'],['NG', 'Nigeria', None, None, None],2066
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['CA', 'Canada', 'NS', 'Nova Scotia', 'Dartmouth'],56
+['US', 'United States', 'MA', 'Massachusetts', 'Cambridge'],['US', 'United States', 'OK', 'Oklahoma', 'Tulsa'],1088
+['CA', 'Canada', 'QC', 'Quebec', 'Montreal'],['CA', 'Canada', 'QC', 'Quebec', 'Montreal'],56851
+['HK', 'Hong Kong', None, None, None],['US', 'United States', 'CA', 'California', 'Los Angeles'],2850
+['CA', 'Canada', 'AB', 'Alberta', None],['CA', 'Canada', 'AB', 'Alberta', None],20574
+['US', 'United States', 'NE', 'Nebraska', 'Grand Island'],['US', 'United States', 'MS', 'Mississippi', 'Olive Branch'],1
+['NG', 'Nigeria', None, None, None],['US', 'United States', 'OK', 'Oklahoma', 'Owasso'],61
+['US', 'United States', 'AZ', 'Arizona', 'Paradise Valley'],['US', 'United States', 'NE', 'Nebraska', None],2
+['US', 'United States', 'OH', 'Ohio', None],['US', 'United States', 'FL', 'Florida', None],4111
+['US', 'United States', 'CA', 'California', 'El Segundo'],['US', 'United States', 'VT', 'Vermont', 'Craftsbury'],12
+['PK', 'Pakistan', 'Sindh', 'Sindh', None],['PK', 'Pakistan', 'Sindh', 'Sindh', None],5724
+['US', 'United States', 'OH', 'Ohio', 'Cleveland'],['US', 'United States', 'CO', 'Colorado', 'Denver'],1477
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'TX', 'Texas', 'Austin'],4665
+['CA', 'Canada', 'ON', 'Ontario', 'Perth'],['CA', 'Canada', 'AB', 'Alberta', 'Sylvan Lake'],21
+['US', 'United States', 'NC', 'North Carolina', 'Rockwell'],['US', 'United States', 'NC', 'North Carolina', 'Rockwell'],1794
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'TN', 'Tennessee', 'Mt. Juliet'],936
+['US', 'United States', 'CA', 'California', 'San Jose'],['US', 'United States', 'CA', 'California', 'Modesto'],254
+['GB', 'United Kingdom', 'England', 'England', 'London'],['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],3113
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MO', 'Missouri', 'St. Louis'],36758
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'NC', 'North Carolina', 'Sanford'],109
+['US', 'United States', 'UT', 'Utah', None],['US', 'United States', 'UT', 'Utah', None],24195
+['US', 'United States', 'NJ', 'New Jersey', 'Audubon'],['US', 'United States', 'NJ', 'New Jersey', 'Audubon'],140
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'KY', 'Kentucky', None],7609
+['BE', 'Belgium', 'Brussels', 'Brussels', 'Brussels'],['GB', 'United Kingdom', 'England', 'England', 'Eastleigh'],79
+['US', 'United States', 'TX', 'Texas', 'Austin'],['US', 'United States', 'IN', 'Indiana', 'Indianapolis'],113
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'OR', 'Oregon', None],5178
+['US', 'United States', 'TX', 'Texas', None],['US', 'United States', 'TN', 'Tennessee', 'Goodlettsville'],8
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'KS', 'Kansas', 'Independence'],19121
+['US', 'United States', None, None, None],['US', 'United States', 'KS', 'Kansas', 'Wichita'],919
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'CA', 'California', 'SF'],60197
+['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],46513
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['JP', 'Japan', 'Tokyo', 'Tokyo', None],1085
+['GB', 'United Kingdom', 'England', 'England', 'London'],['IT', 'Italy', 'Tuscany', 'Tuscany', 'Siena'],87
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'TX', 'Texas', 'Dallas'],112267
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'MI', 'Michigan', None],18317
+['US', 'United States', 'TX', 'Texas', 'Austin'],['US', 'United States', 'KS', 'Kansas', 'Independence'],1880
+['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],105033
+['US', 'United States', 'AZ', 'Arizona', 'Prescott'],['US', 'United States', 'TX', 'Texas', None],188
+['NL', 'Netherlands', 'NH', 'North Holland', None],['US', 'United States', 'CA', 'California', 'Santa Monica'],6
+['US', 'United States', 'NY', 'New York', 'New York'],['GB', 'United Kingdom', 'England', 'England', 'Hitchin'],197
+['IN', 'India', None, None, None],['IN', 'India', 'BR', 'Bihar', 'Azamnagar'],444
+['NZ', 'New Zealand', None, None, None],['GB', 'United Kingdom', 'England', 'England', None],115
+['GB', 'United Kingdom', 'England', 'England', 'London'],['IN', 'India', None, None, None],20959
+['US', 'United States', 'MS', 'Mississippi', None],['US', 'United States', 'TN', 'Tennessee', None],649
+['US', 'United States', 'TX', 'Texas', None],['US', 'United States', 'NH', 'New Hampshire', None],1268
+['MX', 'Mexico', 'Hgo.', 'Hidalgo', 'Pachuca'],['MX', 'Mexico', 'Hgo.', 'Hidalgo', None],12344
+['US', 'United States', 'VA', 'Virginia', 'Arlington'],['US', 'United States', 'CA', 'California', None],9416
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'GA', 'Georgia', None],15768
+['EG', 'Egypt', 'Cairo Governorate', 'Cairo Governorate', 'Cairo'],['IT', 'Italy', 'Sardinia', 'Sardinia', None],7
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MD', 'Maryland', 'Severna Park'],71
+['US', 'United States', 'PA', 'Pennsylvania', 'Latrobe'],['US', 'United States', 'KY', 'Kentucky', 'Highland Heights'],83
+['US', 'United States', 'MI', 'Michigan', 'Livonia'],['US', 'United States', 'MI', 'Michigan', 'Livonia'],626
+['ZA', 'South Africa', None, None, None],['ZA', 'South Africa', 'MP', 'Mpumalanga', 'Mbombela'],5122
+['US', 'United States', 'PA', 'Pennsylvania', 'Pittsburgh'],['US', 'United States', 'PA', 'Pennsylvania', 'Pittsburgh'],95163
+['DE', 'Germany', 'BY', 'Bavaria', 'Munich'],['DE', 'Germany', 'BY', 'Bavaria', 'Munich'],24339
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', 'Sunnyvale'],4403
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'IL', 'Illinois', 'Chicago'],10202
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'TX', 'Texas', 'Houston'],32746
+['SE', 'Sweden', None, None, None],['US', 'United States', 'TX', 'Texas', 'Allen'],5
+['US', 'United States', 'CA', 'California', 'San Jose'],['US', 'United States', 'AL', 'Alabama', 'Jacksonville'],40
+['US', 'United States', 'FL', 'Florida', 'Miami'],['GB', 'United Kingdom', 'Scotland', 'Scotland', 'Linlithgow'],371
+['IQ', 'Iraq', None, None, None],['IQ', 'Iraq', None, None, None],9115
+['US', 'United States', None, None, None],['DE', 'Germany', 'BY', 'Bavaria', 'Munich'],175
+['US', 'United States', 'KS', 'Kansas', 'Coffeyville'],['US', 'United States', 'CA', 'California', 'Temecula'],24
+['CA', 'Canada', 'SK', 'Saskatchewan', 'Regina'],['CA', 'Canada', 'SK', 'Saskatchewan', 'Regina'],2506
+['US', 'United States', 'NY', 'New York', 'New York'],['IN', 'India', None, None, None],75592
+['US', 'United States', 'NY', 'New York', 'Ithaca'],['US', 'United States', 'CA', 'California', None],2933
+['US', 'United States', 'TX', 'Texas', 'Houston'],['US', 'United States', 'CA', 'California', 'Pasadena'],90
+['HK', 'Hong Kong', None, None, None],['US', 'United States', 'CA', 'California', None],8058
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'CA', 'California', None],572854
+['US', 'United States', 'CA', 'California', 'Pleasanton'],['US', 'United States', 'NC', 'North Carolina', None],620
+['CA', 'Canada', 'ON', 'Ontario', 'Ottawa'],['CA', 'Canada', None, None, None],4485
+['IN', 'India', None, None, None],['IN', 'India', 'GJ', 'Gujarat', 'Ahmedabad'],112461
+['US', 'United States', 'CA', 'California', 'Arcadia'],['US', 'United States', 'CA', 'California', 'Arcadia'],927
+['US', 'United States', 'NY', 'New York', None],['SA', 'Saudi Arabia', None, None, None],101
+['US', 'United States', 'GA', 'Georgia', None],['US', 'United States', 'FL', 'Florida', None],11318
+['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],['US', 'United States', 'PA', 'Pennsylvania', 'Mt Lebanon'],27
+['US', 'United States', 'CA', 'California', 'Aliso Viejo'],['US', 'United States', 'FL', 'Florida', 'Orlando'],8
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'NJ', 'New Jersey', 'Shrewsbury'],3
+['US', 'United States', 'KS', 'Kansas', 'Independence'],['ZA', 'South Africa', None, None, None],3234
+['US', 'United States', 'MA', 'Massachusetts', 'Cambridge'],['US', 'United States', 'NM', 'New Mexico', 'Los Lunas'],4
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'KS', 'Kansas', 'Independence'],27824
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'CA', 'California', 'City of Industry'],342
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'TX', 'Texas', 'Houston'],3658
+['SE', 'Sweden', 'Skåne County', 'Skåne County', 'Lund'],['SE', 'Sweden', 'Skåne County', 'Skåne County', 'Lund'],1536
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'CA', 'California', 'Los Angeles'],11073
+['ES', 'Spain', None, None, None],['ES', 'Spain', None, None, None],3197
+['ZA', 'South Africa', None, None, None],['ZA', 'South Africa', 'MP', 'Mpumalanga', None],5090
+['AU', 'Australia', 'QLD', 'Queensland', 'Gold Coast'],['US', 'United States', 'GA', 'Georgia', None],12
+['US', 'United States', 'NJ', 'New Jersey', 'Newark'],['US', 'United States', 'IL', 'Illinois', 'Urbana'],470
+['US', 'United States', 'UT', 'Utah', 'Salt Lake City'],['US', 'United States', 'UT', 'Utah', 'Salt Lake City'],31270
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'NJ', 'New Jersey', None],45710
+['US', 'United States', 'NC', 'North Carolina', 'Charlotte'],['US', 'United States', 'IL', 'Illinois', 'Urbana'],757
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['JP', 'Japan', None, None, None],989
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'WA', 'Washington', 'Tacoma'],840
+['US', 'United States', 'ND', 'North Dakota', 'Grand Forks'],['US', 'United States', 'CA', 'California', None],4573
+['IN', 'India', None, None, None],['PK', 'Pakistan', 'Punjab', 'Punjab', 'Lahore'],1414
+['US', 'United States', 'CA', 'California', 'Santa Barbara'],['US', 'United States', 'CA', 'California', 'Santa Barbara'],5672
+['JP', 'Japan', 'Tokyo', 'Tokyo', None],['US', 'United States', None, None, None],633
+['IN', 'India', None, None, None],['IN', 'India', 'JH', 'Jharkhand', 'Dhanbad'],8358
+['US', 'United States', 'CA', 'California', 'SF'],['US', 'United States', 'CA', 'California', 'Berkeley'],1511
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'NJ', 'New Jersey', 'Newark'],569
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'PA', 'Pennsylvania', 'Bear Creek Village'],442
+['CO', 'Colombia', 'Bogota', 'Bogota', 'Bogotá'],['ES', 'Spain', 'CT', 'Catalonia', 'Barcelona'],85
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'CT', 'Connecticut', 'Groton'],94
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'OK', 'Oklahoma', 'Ponca City'],56
+['VE', 'Venezuela', 'Dto. Capital', 'Capital District', 'CCS'],['VE', 'Venezuela', 'Dto. Capital', 'Capital District', None],7624
+['US', 'United States', 'ND', 'North Dakota', 'Grand Forks'],['US', 'United States', 'AZ', 'Arizona', None],738
+['US', 'United States', 'VA', 'Virginia', 'Lovettsville'],['US', 'United States', 'NY', 'New York', None],123
+['US', 'United States', 'HI', 'Hawaii', None],['US', 'United States', 'OH', 'Ohio', 'Elyria'],5
+['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],['AU', 'Australia', 'WA', 'Western Australia', 'Perth'],3457
+['US', 'United States', 'WA', 'Washington', 'Tacoma'],['US', 'United States', 'WA', 'Washington', 'Tacoma'],10696
+['US', 'United States', 'MN', 'Minnesota', None],['US', 'United States', 'IL', 'Illinois', 'Urbana'],2672
+['HK', 'Hong Kong', None, None, None],['HK', 'Hong Kong', None, None, None],249610
+['US', 'United States', 'AZ', 'Arizona', None],['US', 'United States', None, None, None],8511
+['GB', 'United Kingdom', 'England', 'England', 'London'],['JP', 'Japan', None, None, None],1764
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['US', 'United States', 'CO', 'Colorado', 'Englewood'],1326
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'CA', 'California', 'Mammoth Lakes'],20
+['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],['DE', 'Germany', 'SA', 'Saxony-Anhalt', 'Halle (Saale)'],1688
+['US', 'United States', 'NJ', 'New Jersey', 'Chester'],['US', 'United States', 'CA', 'California', None],1187
+['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],['US', 'United States', 'WA', 'Washington', 'Woodinville'],40
+['US', 'United States', 'TX', 'Texas', 'Sulphur Springs'],['US', 'United States', 'TX', 'Texas', 'Coldspring'],44
+['US', 'United States', 'NY', 'New York', 'New York'],['CM', 'Cameroon', 'Littoral', 'Littoral', None],328
+['CA', 'Canada', 'AB', 'Alberta', None],['CA', 'Canada', 'NS', 'Nova Scotia', None],273
+['US', 'United States', 'NJ', 'New Jersey', 'Toms River'],['US', 'United States', 'NJ', 'New Jersey', 'Rumson'],1
+['CL', 'Chile', 'Santiago Metropolitan Region', 'Santiago Metropolitan Region', 'Maipú'],['CL', 'Chile', 'Santiago Metropolitan Region', 'Santiago Metropolitan Region', 'Maipú'],1011
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['GB', 'United Kingdom', 'England', 'England', 'West Bromwich'],37
+['US', 'United States', 'LA', 'Louisiana', 'Holly'],['US', 'United States', 'CA', 'California', 'Santa Monica'],13
+['US', 'United States', 'CA', 'California', 'San Diego'],['US', 'United States', 'CA', 'California', 'Los Angeles'],4159
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'TX', 'Texas', 'Plano'],474
+['US', 'United States', 'CA', 'California', 'Pacific Grove'],['US', 'United States', 'CA', 'California', None],62
+['GB', 'United Kingdom', 'England', 'England', 'London'],['US', 'United States', 'TN', 'Tennessee', 'Memphis'],2881
+['US', 'United States', 'CO', 'Colorado', None],['US', 'United States', 'CO', 'Colorado', None],25770
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'NY', 'New York', 'Trumansburg'],11
+['AU', 'Australia', None, None, None],['FR', 'France', 'IDF', 'Île-de-France', 'Provins'],1
+['US', 'United States', 'IL', 'Illinois', 'Chicago'],['US', 'United States', 'MO', 'Missouri', 'Richmond Heights'],5
+['GB', 'United Kingdom', 'England', 'England', 'Portland'],['GB', 'United Kingdom', 'Scotland', 'Scotland', 'Strathaven'],99
+['AR', 'Argentina', 'Buenos Aires Province', 'Buenos Aires Province', 'Bahía Blanca'],['AR', 'Argentina', 'Buenos Aires Province', 'Buenos Aires Province', 'Bahía Blanca'],8727
+['US', 'United States', 'MO', 'Missouri', 'Herculaneum'],['CA', 'Canada', 'AB', 'Alberta', 'Calgary'],6
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'GA', 'Georgia', 'St Simons Island'],217
+['US', 'United States', 'NY', 'New York', 'New York'],['SG', 'Singapore', None, None, None],837
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'ID', 'Idaho', Coeur d'Alene"]",1317
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['CA', 'Canada', 'BC', 'British Columbia', 'Surrey'],471
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'MO', 'Missouri', None],9062
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'WI', 'Wisconsin', None],7915
+['US', 'United States', 'NJ', 'New Jersey', 'Englewood Cliffs'],['MY', 'Malaysia', 'Federal Territory of Kuala Lumpur', 'Federal Territory of Kuala Lumpur', 'Kuala Lumpur'],253
+['CA', 'Canada', 'ON', 'Ontario', 'Acton'],['CA', 'Canada', 'ON', 'Ontario', 'Acton'],5
+['US', 'United States', 'NY', 'New York', None],['US', 'United States', 'CA', 'California', 'Los Angeles'],17685
+['CA', 'Canada', 'AB', 'Alberta', None],['CA', 'Canada', 'AB', 'Alberta', 'Edmonton'],25302
+['US', 'United States', 'VT', 'Vermont', 'Brattleboro'],['US', 'United States', 'VT', 'Vermont', 'Brattleboro'],11
+['US', 'United States', 'NV', 'Nevada', 'Las Vegas'],['JP', 'Japan', '長野県', '長野県', '川上村'],4
+['US', 'United States', 'NY', 'New York', 'New York'],['ZW', 'Zimbabwe', None, None, None],2404
+['GB', 'United Kingdom', 'England', 'England', None],['GB', 'United Kingdom', 'England', 'England', 'Honiton'],258
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'WI', 'Wisconsin', 'Spring Green'],108
+['CO', 'Colombia', None, None, None],['US', 'United States', 'NY', 'New York', 'New York'],2430
+['DE', 'Germany', 'BW', 'Baden-Württemberg', 'Karlsruhe'],['US', 'United States', 'MA', 'Massachusetts', 'Cambridge'],8
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OH', 'Ohio', 'Brilliant'],645
+['GB', 'United Kingdom', 'Scotland', 'Scotland', None],['US', 'United States', 'WA', 'Washington', 'Bellevue'],153
+['ID', 'Indonesia', 'Jakarta', 'Jakarta', 'Jakarta'],['ID', 'Indonesia', 'North Sumatra', 'North Sumatra', 'Medan'],1288
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MO', 'Missouri', None],57338
+['US', 'United States', 'GA', 'Georgia', None],['US', 'United States', 'CA', 'California', 'El Cajon'],24
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'NY', 'New York', 'New York'],20039
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'MD', 'Maryland', 'Ocean City'],1629
+['IN', 'India', None, None, None],['IN', 'India', 'DH', 'Dadra and Nagar Haveli and Daman and Diu', 'Silvassa'],1209
+['US', 'United States', 'MA', 'Massachusetts', None],['US', 'United States', 'MI', 'Michigan', 'Pontiac'],45
+['US', 'United States', 'LA', 'Louisiana', 'Jefferson'],['US', 'United States', 'TX', 'Texas', None],2655
+['DE', 'Germany', 'NRW', 'North Rhine-Westphalia', 'Düsseldorf'],['DE', 'Germany', 'NRW', 'North Rhine-Westphalia', 'Düsseldorf'],4327
+['US', 'United States', 'TX', 'Texas', 'Houston'],['US', 'United States', 'MD', 'Maryland', 'West Friendship'],5
+['US', 'United States', 'GA', 'Georgia', None],['US', 'United States', 'NY', 'New York', None],2303
+['US', 'United States', None, None, None],['US', 'United States', 'TX', 'Texas', 'El Paso'],938
+['CA', 'Canada', 'AB', 'Alberta', 'Edmonton'],['CA', 'Canada', 'BC', 'British Columbia', 'Surrey'],426
+['IN', 'India', 'CH', 'Chandigarh', 'Chandigarh'],['IN', 'India', 'HR', 'Haryana', 'Gurugram'],768
+['ID', 'Indonesia', 'Jakarta', 'Jakarta', 'Jakarta'],['US', 'United States', 'CA', 'California', 'Fullerton'],25
+['US', 'United States', 'CT', 'Connecticut', 'New Haven'],['US', 'United States', 'CT', 'Connecticut', 'New Haven'],2211
+['US', 'United States', 'FL', 'Florida', 'Miami'],['GB', 'United Kingdom', 'Scotland', 'Scotland', 'Inverness'],826
+['FR', 'France', 'IDF', 'Île-de-France', 'Paris'],['NG', 'Nigeria', None, None, None],110
+['DE', 'Germany', 'HE', 'Hessen', 'Frankfurt'],['DE', 'Germany', 'HE', 'Hessen', 'Frankfurt'],5062
+['DE', 'Germany', 'SA', 'Saxony-Anhalt', 'Halle (Saale)'],['DE', 'Germany', 'SA', 'Saxony-Anhalt', 'Halle (Saale)'],1237
+['KE', 'Kenya', 'Nairobi County', 'Nairobi County', 'Nairobi'],['KE', 'Kenya', None, None, None],56075
+['IT', 'Italy', 'Veneto', 'Veneto', 'Verona'],['IT', 'Italy', 'Sicily', 'Sicily', 'Palermo'],12
+['NZ', 'New Zealand', 'Bay of Plenty', 'Bay of Plenty', None],['NZ', 'New Zealand', 'Wellington', 'Wellington', 'Wellington'],75
+['US', 'United States', 'KY', 'Kentucky', 'Lexington'],['NO', 'Norway', None, None, None],4
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'CA', 'California', 'Santa Monica'],2744
+['IN', 'India', None, None, None],['GB', 'United Kingdom', 'England', 'England', 'London'],31364
+['US', 'United States', 'NY', 'New York', 'New York'],['AU', 'Australia', 'NSW', 'New South Wales', 'Sydney'],24390
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OR', 'Oregon', 'Eugene'],9443
+['US', 'United States', 'FL', 'Florida', 'Plantation'],['US', 'United States', 'FL', 'Florida', 'Plantation'],999
+['US', 'United States', 'TX', 'Texas', 'Houston'],['US', 'United States', 'CA', 'California', 'Manhattan Beach'],36
+['US', 'United States', 'IL', 'Illinois', 'Urbana'],['US', 'United States', 'ID', 'Idaho', 'Nampa'],46
+['US', 'United States', 'VA', 'Virginia', 'Arlington'],['US', 'United States', 'PA', 'Pennsylvania', 'Philadelphia'],2423
+['MX', 'Mexico', 'Méx.', 'State of Mexico', 'Toluca'],['MX', 'Mexico', None, None, None],3421
+['US', 'United States', 'CA', 'California', 'West Hollywood'],['US', 'United States', 'FL', 'Florida', 'Inverness'],7
+['PG', 'Papua New Guinea', None, None, None],['PG', 'Papua New Guinea', None, None, None],3062
+['US', 'United States', 'KS', 'Kansas', 'Coffeyville'],['US', 'United States', 'AZ', 'Arizona', 'Scottsdale'],982
+['NG', 'Nigeria', None, None, None],['NG', 'Nigeria', None, None, None],276603
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['IL', 'Israel', None, None, None],1088
+['ID', 'Indonesia', 'Jakarta', 'Jakarta', 'South Jakarta'],['ID', 'Indonesia', 'Jakarta', 'Jakarta', 'South Jakarta'],7906
+['US', 'United States', 'CA', 'California', None],['US', 'United States', 'NJ', 'New Jersey', 'North Plainfield'],14
+['US', 'United States', 'NC', 'North Carolina', 'Charlotte'],['US', 'United States', 'IL', 'Illinois', 'Chicago'],1062
+['US', 'United States', 'FL', 'Florida', None],['US', 'United States', 'NJ', 'New Jersey', 'Moorestown'],242
+['US', 'United States', 'DC', 'District of Columbia', 'Washington'],['US', 'United States', 'MD', 'Maryland', 'Linthicum Heights'],62
+['ZA', 'South Africa', 'LP', 'Limpopo', 'Tzaneen'],['ZW', 'Zimbabwe', 'Harare Province', 'Harare Province', 'Harare'],2
+['US', 'United States', 'CO', 'Colorado', None],['US', 'United States', 'CO', 'Colorado', 'Denver'],15422
+['US', 'United States', 'MI', 'Michigan', 'Bloomfield Twp'],['US', 'United States', 'TX', 'Texas', None],336
+['US', 'United States', 'CA', 'California', None],['MX', 'Mexico', 'B.C.', 'Baja California', 'Tijuana'],118
+['US', 'United States', 'IL', 'Illinois', 'Chicago'],['US', 'United States', 'CA', 'California', 'Los Angeles'],6438
+['US', 'United States', 'NC', 'North Carolina', 'Charlotte'],['US', 'United States', 'CO', 'Colorado', 'Denver'],555
+['CO', 'Colombia', 'Atlantico', 'Atlantico', 'Barranquilla'],['CO', 'Colombia', None, None, None],6454
+['US', 'United States', 'CA', 'California', 'SF'],['JP', 'Japan', 'Tokyo', 'Tokyo', None],4732
+['US', 'United States', 'CT', 'Connecticut', None],['US', 'United States', 'CT', 'Connecticut', None],13875
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'AZ', 'Arizona', 'Flagstaff'],3018
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'TN', 'Tennessee', None],73929
+['US', 'United States', 'TX', 'Texas', 'Texarkana'],['US', 'United States', 'LA', 'Louisiana', 'Baton Rouge'],1
+['US', 'United States', 'CA', 'California', 'Los Angeles'],['MX', 'Mexico', 'B.C.', 'Baja California', 'Mexicali'],780
+['CA', 'Canada', 'ON', 'Ontario', 'Mississauga'],['CA', 'Canada', 'SK', 'Saskatchewan', 'Saskatoon'],259
+['DE', 'Germany', 'Berlin', 'Berlin', 'Berlin'],['US', 'United States', 'TN', 'Tennessee', 'Olivehill'],4
+['US', 'United States', 'ME', 'Maine', 'Portland'],['US', 'United States', 'NH', 'New Hampshire', None],163
+['US', 'United States', 'AZ', 'Arizona', 'Prescott'],['US', 'United States', 'SD', 'South Dakota', 'Sioux Falls'],4
+['MX', 'Mexico', 'B.C.', 'Baja California', 'Mexicali'],['US', 'United States', 'AR', 'Arkansas', 'Bentonville'],115
+['US', 'United States', 'NY', 'New York', 'New York'],['US', 'United States', 'OH', 'Ohio', 'Dayton'],7913
