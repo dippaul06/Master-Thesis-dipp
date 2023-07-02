@@ -65,6 +65,8 @@ def loc_extraction(Full_Location_Data, Res_Data):
     print('Total  Exception: ', exception_data)
     print('Out of Bound: ', out_of_bound)
 
+    return
+
 
 
 Full_Location_Data_01 = '/global/D1/projects/umod/dipp/Misinformation_Dataset/Result/results_loc_to_loc_from_user_to_user_cat_01_only_3.csv'
