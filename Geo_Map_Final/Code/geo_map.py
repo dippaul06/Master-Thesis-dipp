@@ -26,10 +26,13 @@ def create_map(data):
 
 
 
-        folium.CircleMarker(location = [lat, lon], radius=radius, tooltip=count, color="cornflowerblue", stroke=False, fill=True, fill_opacity=0.6, opacity=1).add_to(m)
-
-        folium.map.Marker( location = [lat, lon], icon=folium.DivIcon(icon_size=(150,36),icon_anchor=(0,0),html='<div style="font-size: 10pt", font-weight: 900>%s</div>' %count), popup= popup_text).add_to(m)
-
+        #folium.CircleMarker(location = [lat, lon], radius=radius, tooltip=count, color="cornflowerblue", stroke=False, fill=True, fill_opacity=0.6, opacity=1).add_to(m)
+        if(count >= 1000000):
+            folium.map.Marker( location = [lat, lon], icon=folium.DivIcon(icon_size=(150,36),icon_anchor=(0,0),html='<div style="font-size: 20pt", font-weight: 900>%s</div>' %count), popup= popup_text).add_to(m)
+        if(count < 1000000 and count >100000):
+            folium.map.Marker( location = [lat, lon], icon=folium.DivIcon(icon_size=(150,36),icon_anchor=(0,0),html='<div style="font-size: 15pt", font-weight: 900>%s</div>' %count), popup= popup_text).add_to(m)
+        if(count < 100000):
+            folium.map.Marker( location = [lat, lon], icon=folium.DivIcon(icon_size=(150,36),icon_anchor=(0,0),html='<div style="font-size: 10pt", font-weight: 900>%s</div>' %count), popup= popup_text).add_to(m)
 
     return m
 
@@ -53,7 +56,8 @@ def __main__():
     data = pd.read_csv(csv_file)
     data = data_format(data)
     world_map = create_map(data)
-    world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final.html')
+    #world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final.html')
+    world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final_new.html')
     
 
 
