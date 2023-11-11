@@ -2,6 +2,7 @@ import pandas as pd
 import time
 from geopy.geocoders import Nominatim 
 import folium
+from numerize import numerize 
 
 def geocode_country(country_name):
     geolocator = Nominatim(user_agent="your_app_name")
@@ -22,7 +23,7 @@ def create_map(data):
         lat = row['Latitude']
         lon = row['Longitude']
         radius = 30
-        popup_text = count
+        popup_text = numerize.numerize(count)
 
 
 
@@ -57,7 +58,7 @@ def __main__():
     data = data_format(data)
     world_map = create_map(data)
     #world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final.html')
-    world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final_new.html')
+    world_map.save('/home/dipp/Github/Master-Thesis-dipp/Geo_Map_Final/Result/world_map_final_new_01.html')
     
 
 
